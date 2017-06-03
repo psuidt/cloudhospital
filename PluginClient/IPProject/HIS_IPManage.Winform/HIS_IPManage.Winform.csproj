@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2188890-81D5-42F9-9D37-04CB06EBDD08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_IPManage.Winform</RootNamespace>
+    <AssemblyName>HIS_IPManage.Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="EfwControls, Version=2.2.3.432, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\EfwControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_Entity, Version=2.2.3.430, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\HIS_Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Account\AccountDetailController.cs" />
+    <Compile Include="Controller\Account\AllAccountController.cs" />
+    <Compile Include="Controller\Account\ChargeDetailController.cs" />
+    <Compile Include="Controller\AdmissionController.cs" />
+    <Compile Include="Controller\BedManagementController.cs" />
+    <Compile Include="Controller\CommandManagementController.cs" />
+    <Compile Include="Controller\DischargeRecallController.cs" />
+    <Compile Include="Controller\DischargeSettlementController.cs" />
+    <Compile Include="Controller\DoctorsOrderSccountingController.cs" />
+    <Compile Include="Controller\DoctorTempManageController.cs" />
+    <Compile Include="Controller\ExpenseListController.cs" />
+    <Compile Include="Controller\IPCostSearch\IPCostSearchController.cs" />
+    <Compile Include="Controller\PrepaidPaymentSysController.cs" />
+    <Compile Include="Controller\Account\SinglePaymentManageController.cs" />
+    <Compile Include="Controller\UCAccountTabController.cs" />
+    <Compile Include="Controller\WardMaintenanceController.cs" />
+    <Compile Include="IView\Account\IAccountDetail.cs" />
+    <Compile Include="IView\IAddBed.cs" />
+    <Compile Include="IView\IAddDoctorTemp.cs" />
+    <Compile Include="IView\IAddWard.cs" />
+    <Compile Include="IView\IAdjustInvoice.cs" />
+    <Compile Include="IView\IBedAllocation.cs" />
+    <Compile Include="IView\IBedManagement.cs" />
+    <Compile Include="IView\Account\IChargeDetail.cs" />
+    <Compile Include="IView\ICommandManagement.cs" />
+    <Compile Include="IView\IDischargeConfirmation.cs" />
+    <Compile Include="IView\IDischargeRecall.cs" />
+    <Compile Include="IView\IDischargeSettlement.cs" />
+    <Compile Include="IView\IAdmissionRegistration.cs" />
+    <Compile Include="IView\IDoctorsOrderSccounting.cs" />
+    <Compile Include="IView\IDoctorTempManage.cs" />
+    <Compile Include="IView\IExpenseList.cs" />
+    <Compile Include="IView\IFeePresDate.cs" />
+    <Compile Include="IView\Account\IFrmAllAccount.cs" />
+    <Compile Include="IView\IInvoiceFill.cs" />
+    <Compile Include="IView\IPackBed.cs" />
+    <Compile Include="IView\IPatientBedChanging.cs" />
+    <Compile Include="IView\IPatientInfo.cs" />
+    <Compile Include="IView\IPayADeposit.cs" />
+    <Compile Include="IView\IPayMentInfo.cs" />
+    <Compile Include="IView\IPCostSearch\IFrmCostDetail.cs" />
+    <Compile Include="IView\IPCostSearch\IIPCostSearch.cs" />
+    <Compile Include="IView\IPrepaidPaymentSys.cs" />
+    <Compile Include="IView\Account\ISinglePaymentManage.cs" />
+    <Compile Include="IView\IQueryMenber.cs" />
+    <Compile Include="IView\IUpdateBed.cs" />
+    <Compile Include="IView\IUpdatePatientInfo.cs" />
+    <Compile Include="IView\IWardMaintenance.cs" />
+    <Compile Include="IView\UC\IUCAccountTab.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAccountDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAccountDetail.Designer.cs">
+      <DependentUpon>FrmAccountDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddBed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddBed.Designer.cs">
+      <DependentUpon>FrmAddBed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddDoctorTemp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddDoctorTemp.Designer.cs">
+      <DependentUpon>FrmAddDoctorTemp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddWard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmAddWard.Designer.cs">
+      <DependentUpon>FrmAddWard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmAdjustInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmAdjustInvoice.Designer.cs">
+      <DependentUpon>FrmAdjustInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmAdmissionRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmAdmissionRegistration.Designer.cs">
+      <DependentUpon>FrmAdmissionRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAllAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAllAccount.Designer.cs">
+      <DependentUpon>FrmAllAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmBedAllocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmBedAllocation.Designer.cs">
+      <DependentUpon>FrmBedAllocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmBedManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmBedManagement.Designer.cs">
+      <DependentUpon>FrmBedManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmChargeDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmChargeDetail.Designer.cs">
+      <DependentUpon>FrmChargeDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmCommandManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmCommandManagement.Designer.cs">
+      <DependentUpon>FrmCommandManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDeptOrderCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDeptOrderCheck.Designer.cs">
+      <DependentUpon>FrmDeptOrderCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeConfirmation.Designer.cs">
+      <DependentUpon>FrmDischargeConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeRecall.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeRecall.Designer.cs">
+      <DependentUpon>FrmDischargeRecall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeSettlement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDischargeSettlement.Designer.cs">
+      <DependentUpon>FrmDischargeSettlement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorsOrderSccounting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorsOrderSccounting.Designer.cs">
+      <DependentUpon>FrmDoctorsOrderSccounting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorTempManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorTempManage.Designer.cs">
+      <DependentUpon>FrmDoctorTempManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmExpenseList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmExpenseList.Designer.cs">
+      <DependentUpon>FrmExpenseList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmFeePresDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmFeePresDate.Designer.cs">
+      <DependentUpon>FrmFeePresDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmInvoiceFill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmInvoiceFill.Designer.cs">
+      <DependentUpon>FrmInvoiceFill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPackBed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPackBed.Designer.cs">
+      <DependentUpon>FrmPackBed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPatientBedChanging.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPatientBedChanging.Designer.cs">
+      <DependentUpon>FrmPatientBedChanging.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPatientInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPatientInfo.Designer.cs">
+      <DependentUpon>FrmPatientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPayADeposit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPayADeposit.Designer.cs">
+      <DependentUpon>FrmPayADeposit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPayMentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPayMentInfo.designer.cs">
+      <DependentUpon>FrmPayMentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPrepaidPaymentSys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPrepaidPaymentSys.Designer.cs">
+      <DependentUpon>FrmPrepaidPaymentSys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmSinglePaymentManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmSinglePaymentManage.Designer.cs">
+      <DependentUpon>FrmSinglePaymentManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmQueryMenber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmQueryMenber.Designer.cs">
+      <DependentUpon>FrmQueryMenber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmUpdateBed.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmUpdateBed.Designer.cs">
+      <DependentUpon>FrmUpdateBed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmUpdatePatientInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmUpdatePatientInfo.Designer.cs">
+      <DependentUpon>FrmUpdatePatientInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmWardMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmWardMaintenance.Designer.cs">
+      <DependentUpon>FrmWardMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\IDeptOrderCheck.cs" />
+    <Compile Include="ViewForm\IPCostSearch\FrmCostDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\IPCostSearch\FrmCostDetail.designer.cs">
+      <DependentUpon>FrmCostDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\IPCostSearch\FrmIPCostSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\IPCostSearch\FrmIPCostSearch.Designer.cs">
+      <DependentUpon>FrmIPCostSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\UC\UCAccountTab.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ViewForm\UC\UCAccountTab.Designer.cs">
+      <DependentUpon>UCAccountTab.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Axgregn6Lib">
+      <Guid>{4018F953-1BFE-441E-8A04-DC8BA1FF060E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="gregn6Lib">
+      <Guid>{4018F953-1BFE-441E-8A04-DC8BA1FF060E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmAccountDetail.resx">
+      <DependentUpon>FrmAccountDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmAddBed.resx">
+      <DependentUpon>FrmAddBed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmAddDoctorTemp.resx">
+      <DependentUpon>FrmAddDoctorTemp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmAddWard.resx">
+      <DependentUpon>FrmAddWard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmAdjustInvoice.resx">
+      <DependentUpon>FrmAdjustInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmAdmissionRegistration.resx">
+      <DependentUpon>FrmAdmissionRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmAllAccount.resx">
+      <DependentUpon>FrmAllAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmBedAllocation.resx">
+      <DependentUpon>FrmBedAllocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmBedManagement.resx">
+      <DependentUpon>FrmBedManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmChargeDetail.resx">
+      <DependentUpon>FrmChargeDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmCommandManagement.resx">
+      <DependentUpon>FrmCommandManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDeptOrderCheck.resx">
+      <DependentUpon>FrmDeptOrderCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDischargeConfirmation.resx">
+      <DependentUpon>FrmDischargeConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDischargeRecall.resx">
+      <DependentUpon>FrmDischargeRecall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDischargeSettlement.resx">
+      <DependentUpon>FrmDischargeSettlement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDoctorsOrderSccounting.resx">
+      <DependentUpon>FrmDoctorsOrderSccounting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDoctorTempManage.resx">
+      <DependentUpon>FrmDoctorTempManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmExpenseList.resx">
+      <DependentUpon>FrmExpenseList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmFeePresDate.resx">
+      <DependentUpon>FrmFeePresDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmInvoiceFill.resx">
+      <DependentUpon>FrmInvoiceFill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPackBed.resx">
+      <DependentUpon>FrmPackBed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPatientBedChanging.resx">
+      <DependentUpon>FrmPatientBedChanging.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPatientInfo.resx">
+      <DependentUpon>FrmPatientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPayADeposit.resx">
+      <DependentUpon>FrmPayADeposit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPayMentInfo.resx">
+      <DependentUpon>FrmPayMentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPrepaidPaymentSys.resx">
+      <DependentUpon>FrmPrepaidPaymentSys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmSinglePaymentManage.resx">
+      <DependentUpon>FrmSinglePaymentManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmQueryMenber.resx">
+      <DependentUpon>FrmQueryMenber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmUpdateBed.resx">
+      <DependentUpon>FrmUpdateBed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmUpdatePatientInfo.resx">
+      <DependentUpon>FrmUpdatePatientInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmWardMaintenance.resx">
+      <DependentUpon>FrmWardMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\IPCostSearch\FrmCostDetail.resx">
+      <DependentUpon>FrmCostDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\IPCostSearch\FrmIPCostSearch.resx">
+      <DependentUpon>FrmIPCostSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\UC\UCAccountTab.resx">
+      <DependentUpon>UCAccountTab.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\编辑.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\导入.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\关闭.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\删除.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上传.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\刷新.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\搜索.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\收费.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MD $(SolutionDir)Output_Client\ModulePlugin\IPProject\dll
+Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output_Client\ModulePlugin\IPProject\dll"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

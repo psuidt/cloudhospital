@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root version="2.003">
+  <state success="true">
+    <error no="0" info="读卡失败,请插入社保卡!" />
+    <error no="1" info="该卡片已经挂失,不能使用!" />
+    <warning no="0" info="与医保中心通讯中断,不能取得个人帐户,定点医疗机构等信息,请联系网络管理员查看网络运行状况" />
+  </state>
+  <output name="输出部分">
+    <tradeinfo>
+      <tradeno name="交易流水号">0111000309030100116b</tradeno>
+      <ic_no name="医保应用号">10776571600s</ic_no>
+      <curetype name="就诊类型：门诊或急诊等...">11</curetype>
+      <tradedate name="原交易就诊时间">20081001000000</tradedate>
+    </tradeinfo>
+    <feeitemarray>
+      <feeitem itemno="1" recipeno="" hiscode="" itemcode="101110003509900990000000000000000" itemname="三氯化铝溶液" itemtype="0" unitprice="5.5" count="100" fee="550" feein="0" feeout="0" selfpay2="0" state="0" fee_type="" preferentialfee="0" preferentialscale="0" />
+    </feeitemarray>
+    <sumpay>
+      <feeall name="费用总金额">-1000</feeall>
+      <fund name="基金支付">-500</fund>
+      <cash name="现金支付">-500</cash>
+      <personcountpay name="个人帐户支付">-500</personcountpay>
+      </sumpay>
+    <payinfo>
+      <mzfee name="费用总金额">0</mzfee>
+      <mzfeein name="医保内费用总金额">0</mzfeein>
+      <mzfeeout name="医保外费用">0</mzfeeout>
+      <mzpayfirst name="本次付起付线">0</mzpayfirst>
+      <mzselfpay2 name="自付2">0</mzselfpay2>
+      <mzbigpay name="门诊大额支付">0</mzbigpay>
+      <mzbigselfpay name="门诊大额自付">0</mzbigselfpay>
+      <mzoutofbig name="门诊超封顶医保内费用">0</mzoutofbig>
+      <bcpay name="补充保险支付" ></bcpay>
+      <jcbz name="军残补助保险支付"></jcbz>
+    </payinfo>
+  </output>
+</root>

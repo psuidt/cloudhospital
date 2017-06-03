@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="HIS_BGInterface"></assembly>
+    <namespace name="HIS_BGInterface.Dao"></namespace>
+    <container>
+      <register type="IHISBloodGlucoseDao" mapTo="SqlHISBloodGlucoseDao"></register>
+    </container>
+  </unity>
+  <plugin name="BGProject.Service" version="1.0" title="院内血糖接口HIS端服务" author="zh" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_Entity.dll" version="1.0" />
+      <dll name="HIS_BGInterface.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

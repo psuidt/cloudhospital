@@ -1,0 +1,428 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A8104BB7-EB78-47E4-8C47-7C72009C16FF}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_MaterialManage.Winform</RootNamespace>
+    <AssemblyName>HIS_MaterialManage.Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="DevComponents.TreeGX, Version=11.0.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="EfwControls, Version=2.2.3.432, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\EfwControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_Entity">
+      <HintPath>..\..\..\Output_Client\HIS_Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\MaterialCheckStoreController.cs" />
+    <Compile Include="Controller\MaterialPramentController.cs" />
+    <Compile Include="Controller\FinanceController.cs" />
+    <Compile Include="Controller\MaterialInStoreController.cs" />
+    <Compile Include="Controller\MaterialLocationController.cs" />
+    <Compile Include="Controller\MaterialBalanceController.cs" />
+    <Compile Include="Controller\MaterialDeptController.cs" />
+    <Compile Include="Controller\MaterialDicController.cs" />
+    <Compile Include="Controller\MaterialPayMentController.cs" />
+    <Compile Include="Controller\MaterialProductController.cs" />
+    <Compile Include="Controller\MaterialRelateDeptController.cs" />
+    <Compile Include="Controller\MaterialSupplyController.cs" />
+    <Compile Include="Controller\MaterialTypeController.cs" />
+    <Compile Include="Controller\MaterialOutStoreController.cs" />
+    <Compile Include="Controller\MaterialPurchaseController.cs" />
+    <Compile Include="Controller\MaterialQueryStoreController.cs" />
+    <Compile Include="Controller\MaterialReportController.cs" />
+    <Compile Include="Controller\MaterialSetLimitController.cs" />
+    <Compile Include="Controller\SupplyController.cs" />
+    <Compile Include="IView\BaseData\IFrmDeptSetType.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialPrament.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialDept.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialDic.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialType.cs" />
+    <Compile Include="IView\FinanceMgr\IFrmPurchase.cs" />
+    <Compile Include="IView\Report\IFrmGoodsDetailBill.cs" />
+    <Compile Include="IView\Report\IFrmMaterialTypeChoose.cs" />
+    <Compile Include="IView\Report\IFrmGoodsSortBill.cs" />
+    <Compile Include="IView\Report\IFrmMaterialInventoryStatistic.cs" />
+    <Compile Include="IView\Report\IFrmValidAlarm.cs" />
+    <Compile Include="IView\Report\IFrmGoodsCollection.cs" />
+    <Compile Include="IView\StoreMgr\IFrmCheckAudit.cs" />
+    <Compile Include="IView\StoreMgr\IFrmCheckDetail.cs" />
+    <Compile Include="IView\StoreMgr\IFrmCheckType.cs" />
+    <Compile Include="IView\StoreMgr\IFrmInStore.cs" />
+    <Compile Include="IView\StoreMgr\IFrmOutstoreDetail.cs" />
+    <Compile Include="IView\StoreMgr\IFrmInstoreDetail.cs" />
+    <Compile Include="IView\StoreMgr\IFrmLocation.cs" />
+    <Compile Include="IView\StoreMgr\IFrmLocationInfo.cs" />
+    <Compile Include="IView\StoreMgr\IFrmOutStore.cs" />
+    <Compile Include="IView\StoreMgr\IFrmSetLimits.cs" />
+    <Compile Include="IView\StoreMgr\IFrmStoreQuery.cs" />
+    <Compile Include="IView\StoreMgr\IFrmCheck.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialProduct.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialRelateDept.cs" />
+    <Compile Include="IView\BaseData\IFrmMaterialSupply.cs" />
+    <Compile Include="IView\FinanceMgr\IFrmMaterialBalance.cs" />
+    <Compile Include="IView\FinanceMgr\IFrmMaterialPayMent.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmDeptSetType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmDeptSetType.Designer.cs">
+      <DependentUpon>FrmDeptSetType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialPrament.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialPrament.Designer.cs">
+      <DependentUpon>FrmMaterialPrament.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialDept.Designer.cs">
+      <DependentUpon>FrmMaterialDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialProduct.Designer.cs">
+      <DependentUpon>FrmMaterialProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialSupply.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialSupply.Designer.cs">
+      <DependentUpon>FrmMaterialSupply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialRelateDept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialRelateDept.Designer.cs">
+      <DependentUpon>FrmMaterialRelateDept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmMaterialBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmMaterialBalance.Designer.cs">
+      <DependentUpon>FrmMaterialBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmMaterialPayMent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmMaterialPayMent.Designer.cs">
+      <DependentUpon>FrmMaterialPayMent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmMaterialTypeChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmMaterialTypeChoose.Designer.cs">
+      <DependentUpon>FrmMaterialTypeChoose.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmMaterialInventoryStatistic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmMaterialInventoryStatistic.Designer.cs">
+      <DependentUpon>FrmMaterialInventoryStatistic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsDetailBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsDetailBill.Designer.cs">
+      <DependentUpon>FrmGoodsDetailBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmValidAlarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmValidAlarm.Designer.cs">
+      <DependentUpon>FrmValidAlarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsCollection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsCollection.Designer.cs">
+      <DependentUpon>FrmGoodsCollection.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheck.Designer.cs">
+      <DependentUpon>FrmCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckAudit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckAudit.Designer.cs">
+      <DependentUpon>FrmCheckAudit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckDetail.Designer.cs">
+      <DependentUpon>FrmCheckDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmCheckType.Designer.cs">
+      <DependentUpon>FrmCheckType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmInStoreDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmInStoreDetail.Designer.cs">
+      <DependentUpon>FrmInStoreDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmInStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmInStore.Designer.cs">
+      <DependentUpon>FrmInStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmLocationInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmLocationInfo.Designer.cs">
+      <DependentUpon>FrmLocationInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmOutStore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmOutStore.Designer.cs">
+      <DependentUpon>FrmOutStore.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmOutStoreDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmOutStoreDetail.Designer.cs">
+      <DependentUpon>FrmOutStoreDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialDic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialDic.Designer.cs">
+      <DependentUpon>FrmMaterialDic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmPurchase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FinanceMgr\FrmPurchase.Designer.cs">
+      <DependentUpon>FrmPurchase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsSortBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Report\FrmGoodsSortBill.Designer.cs">
+      <DependentUpon>FrmGoodsSortBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmSetLimits.cs">
+      <SubType>Form</SubType>
+      <ExcludeFromStyleCop>True</ExcludeFromStyleCop>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmSetLimits.Designer.cs">
+      <DependentUpon>FrmSetLimits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmStoreQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmStoreQuery.Designer.cs">
+      <DependentUpon>FrmStoreQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmLocation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\StoreMgr\FrmLocation.Designer.cs">
+      <DependentUpon>FrmLocation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\BaseData\FrmMaterialType.Designer.cs">
+      <DependentUpon>FrmMaterialType.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Axgregn6Lib">
+      <Guid>{4018F953-1BFE-441E-8A04-DC8BA1FF060E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="gregn6Lib">
+      <Guid>{4018F953-1BFE-441E-8A04-DC8BA1FF060E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmDeptSetType.resx">
+      <DependentUpon>FrmDeptSetType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialPrament.resx">
+      <DependentUpon>FrmMaterialPrament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialDept.resx">
+      <DependentUpon>FrmMaterialDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialProduct.resx">
+      <DependentUpon>FrmMaterialProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialSupply.resx">
+      <DependentUpon>FrmMaterialSupply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialRelateDept.resx">
+      <DependentUpon>FrmMaterialRelateDept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FinanceMgr\FrmMaterialBalance.resx">
+      <DependentUpon>FrmMaterialBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FinanceMgr\FrmMaterialPayMent.resx">
+      <DependentUpon>FrmMaterialPayMent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmMaterialInventoryStatistic.resx">
+      <DependentUpon>FrmMaterialInventoryStatistic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmGoodsDetailBill.resx">
+      <DependentUpon>FrmGoodsDetailBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmMaterialTypeChoose.resx">
+      <DependentUpon>FrmMaterialTypeChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmValidAlarm.resx">
+      <DependentUpon>FrmValidAlarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmGoodsCollection.resx">
+      <DependentUpon>FrmGoodsCollection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmCheck.resx">
+      <DependentUpon>FrmCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmCheckAudit.resx">
+      <DependentUpon>FrmCheckAudit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmCheckDetail.resx">
+      <DependentUpon>FrmCheckDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmCheckType.resx">
+      <DependentUpon>FrmCheckType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmInStoreDetail.resx">
+      <DependentUpon>FrmInStoreDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmInStore.resx">
+      <DependentUpon>FrmInStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmLocationInfo.resx">
+      <DependentUpon>FrmLocationInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmOutStore.resx">
+      <DependentUpon>FrmOutStore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmOutStoreDetail.resx">
+      <DependentUpon>FrmOutStoreDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialDic.resx">
+      <DependentUpon>FrmMaterialDic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FinanceMgr\FrmPurchase.resx">
+      <DependentUpon>FrmPurchase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Report\FrmGoodsSortBill.resx">
+      <DependentUpon>FrmGoodsSortBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmSetLimits.resx">
+      <DependentUpon>FrmSetLimits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmStoreQuery.resx">
+      <DependentUpon>FrmStoreQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\StoreMgr\FrmLocation.resx">
+      <DependentUpon>FrmLocation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\BaseData\FrmMaterialType.resx">
+      <DependentUpon>FrmMaterialType.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MD $(SolutionDir)Output_Client\ModulePlugin\DrugProject\dll
+Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output_Client\ModulePlugin\DrugProject\dll"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

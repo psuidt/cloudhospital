@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{51DE104C-4906-49EE-AFD9-1A89C6DBAD1C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_IPManage</RootNamespace>
+    <AssemblyName>HIS_IPManage</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\IAllAccountDao.cs" />
+    <Compile Include="Dao\IDiagnosisDao.cs" />
+    <Compile Include="Dao\IExpenseListDao.cs" />
+    <Compile Include="Dao\IIPCostSearchDao.cs" />
+    <Compile Include="Dao\IIPManageDao.cs" />
+    <Compile Include="Dao\IPCostSearchDao.cs" />
+    <Compile Include="Dao\ISinglePaymentManageDao.cs" />
+    <Compile Include="Dao\SqlAllAccountDao.cs" />
+    <Compile Include="Dao\SqlDiagnosisDao.cs" />
+    <Compile Include="Dao\SqlExpenseListDao.cs" />
+    <Compile Include="Dao\SqlIPManageDao.cs" />
+    <Compile Include="Dao\SqlSinglePaymentManageDao.cs" />
+    <Compile Include="ObjectModel\AccountManagement.cs" />
+    <Compile Include="ObjectModel\BedManagement.cs" />
+    <Compile Include="ObjectModel\CostInvoicePrint.cs" />
+    <Compile Include="ObjectModel\CostManagement.cs" />
+    <Compile Include="ObjectModel\DepositManagement.cs" />
+    <Compile Include="ObjectModel\DiagnosisManagement.cs" />
+    <Compile Include="ObjectModel\DrugbillManagement.cs" />
+    <Compile Include="ObjectModel\FeeItemManagement.cs" />
+    <Compile Include="ObjectModel\IPPatient.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WcfController\AdmissionController.cs" />
+    <Compile Include="WcfController\AllAccountController.cs" />
+    <Compile Include="WcfController\BedManagementController.cs" />
+    <Compile Include="WcfController\CommandManagementController.cs" />
+    <Compile Include="WcfController\DiagnosisController.cs" />
+    <Compile Include="WcfController\DischargeRecallController.cs" />
+    <Compile Include="WcfController\DischargeSettlementController.cs" />
+    <Compile Include="WcfController\DoctorsOrderSccountingController.cs" />
+    <Compile Include="WcfController\ExpenseListController.cs" />
+    <Compile Include="WcfController\IPCostSearchController.cs" />
+    <Compile Include="WcfController\NurseTempManageController.cs" />
+    <Compile Include="WcfController\AccountBookController.cs" />
+    <Compile Include="WcfController\PrepaidPaymentSysController.cs" />
+    <Compile Include="WcfController\SinglePaymentManageController.cs" />
+    <Compile Include="WcfController\WardMaintenanceController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\OPProject\HIS_OPManage\HIS_OPManage.csproj">
+      <Project>{BDDEAF8F-ECE8-47DD-883C-02007285A3AE}</Project>
+      <Name>HIS_OPManage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PublicProject\HIS_Entity\HIS_Entity.csproj">
+      <Project>{e74cb0ed-0009-4375-a089-c181ffe0500b}</Project>
+      <Name>HIS_Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PublicProject\HIS_PublicManage\HIS_PublicManage.csproj">
+      <Project>{e46a826e-5e35-4514-bd02-0088ba4743bc}</Project>
+      <Name>HIS_PublicManage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output\ModulePlugin\IPProject\dll\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="HIS_OPManage"></assembly>
+    <assembly name="HIS_IPManage"></assembly>
+    <assembly name="HIS_PublicManage"></assembly>
+    <assembly name="HIS_IPDoctor"></assembly>
+    <assembly name="HIS_IPNurse"></assembly>
+    <namespace name="HIS_OPManage.Dao"></namespace>
+    <namespace name="HIS_IPManage.Dao"></namespace>
+    <namespace name="HIS_PublicManage.Dao"></namespace>
+    <namespace name="HIS_IPDoctor.Dao"></namespace>
+    <namespace name="HIS_IPNurse.Dao"></namespace>
+    <container>
+      <register type="IIPManageDao" mapTo="SqlIPManageDao"></register>
+      <register type="IOPManageDao" mapTo="SqlOPManageDao"></register>
+      <register type="IIPCostSearchDao" mapTo="IPCostSearchDao"></register>
+      <register type="IPublicManageDao" mapTo="SqlPublicManageDao"></register>
+      <register type="IPromotionProjectDao" mapTo="SqlPromotionProject"></register>
+      <register type="IMemberInfoDao" mapTo="SqlMemberInfoDao"></register>
+      <register type="IDrugStoreInfoDao" mapTo="SqlDrugStoreInfoDao"></register>
+      <register type="IExpenseListDao" mapTo="SqlExpenseListDao"></register>
+      <register type="ISinglePaymentManageDao" mapTo="SqlSinglePaymentManageDao"></register>
+      <register type="IAllAccountDao" mapTo="SqlAllAccountDao"></register>
+      <register type="IIPDOrderDao" mapTo="SqlIPDOrderDao"></register>
+      <register type="IDoctorManagementDao" mapTo="SqlDoctorManagementDao"></register>
+      <register type="IDocOrderExpenseCheckDao" mapTo="SqlDocOrderExpenseCheckDao"></register>
+      <register type="IOrderCheckDao" mapTo="SqlOrderCheckDao"></register>
+      <register type="IOrderTempManageDao" mapTo="SqlOrderTempManageDao"></register>
+      <register type="IExecBillRecordDao" mapTo="SqlExecBillRecordDao"></register>
+      <register type="IDiagnosisDao" mapTo="SqlDiagnosisDao"></register>
+      <register type="IExamListDao" mapTo="SqlExamListDao"></register>
+    </container>
+  </unity>
+  <plugin name="IPProject.Service" version="1.0" title="住院项目服务" author="zenghao" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_Entity.dll" version="1.0" />
+      <dll name="HIS_IPDoctor.dll" version="1.0" />
+      <dll name="HIS_IPEMR.dll" version="1.0" />
+      <dll name="HIS_IPManage.dll" version="1.0" />
+      <dll name="HIS_IPNurse.dll" version="1.0" />
+      <dll name="HIS_PublicManage.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

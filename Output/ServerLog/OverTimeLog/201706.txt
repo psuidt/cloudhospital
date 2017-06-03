@@ -1,0 +1,4 @@
+[2017-06-02 14:53:17] : 耗时：2059		方法：LoginController.UserLogin(["\"admin\"","\"1\""])
+
+[2017-06-02 16:59:30] : 耗时：1739.8		方法：LoginController.UserLogin(["\"admin\"","\"1\""])
+

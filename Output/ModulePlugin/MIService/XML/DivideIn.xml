@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-16" standalone="yes" ?>
+ <root version="2.003" sender="1234567890">
+	<input>
+		<tradeinfo>
+			<curetype 	name="就诊类型，11门诊，12门特，13急诊">11</curetype>
+			<illtype 	name="就诊方式 0普通 1特殊病 2器官移植。。。">0</illtype>
+			<feeno 	 name="收费单据号">1234567890</feeno>
+			<operator name="收费员">家的</operator>
+		</tradeinfo>
+		<recipearray>
+			<recipe>
+				<diagnoseno name = "诊断序号">1</diagnoseno>
+				<recipeno name = "处方序号">1</recipeno>
+				<recipedate name = "处方日期时间">20170104121212</recipedate>
+				<diagnosename name = "诊断名称">啊</diagnosename>
+				<diagnosecode name = "诊断编码">01</diagnosecode>
+				<medicalrecord name = "病历信息"></medicalrecord>
+				<sectioncode name = "就诊科别代码">0307</sectioncode>
+				<sectionname  name = "就诊科别名称">内分泌专业</sectionname >
+				<hissectionname  name = "his就诊科别名称">内科2</hissectionname>
+				<drid name = "医师编号">0999</drid>
+				<drname  name = "医师姓名">甲乙</drname>
+				<recipetype>1</recipetype>
+				<helpmedicineflag>0</helpmedicineflag>			
+				<billstype>2</billstype>		
+				<registertradeno>081550030K170104000017</registertradeno>					
+			</recipe>
+		</recipearray>
+		<feeitemarray>
+			<feeitem  
+			itemno="0" 
+			recipeno="1" 
+			hiscode="150071" 
+			itemname="安乃近片" 
+			itemtype="0" 
+			unitprice="6.365" 
+			count="100" 
+			fee="636.5" 
+			usedate="20170104121212" 
+			bornflag="false" 
+			dose="12"	
+			specification="规格123456789012345678"	
+			unit="单位"	
+			howtouse="02"	
+			dosage="0"	
+			packaging="包装单位"	
+			minpackage="最小包装"	
+			conversion="0.9"	
+			days="12"	 
+			fee_type="1"
+			drugapprovalnumber ="H42021303" />
+<feeitem  
+			itemno="1" 
+			recipeno="1" 
+			hiscode="150272" 
+			itemname="阿莫西林颗粒" 
+			itemtype="0" 
+			unitprice="1.24" 
+			count="100" 
+			fee="124" 
+			usedate="20170104121212" 
+			bornflag="false" 
+			dose="12"	
+			specification="规格123456789012345678"	
+			unit="单位"	
+			howtouse="02"	
+			dosage="0"	
+			packaging="包装单位"	
+			minpackage="最小包装"	
+			conversion="0.9"	
+			days="12"	 
+			fee_type="1"
+			drugapprovalnumber ="H42021303" />
+<feeitem  
+			itemno="2" 
+			recipeno="1" 
+			hiscode="150975" 
+			itemname="安胃疡胶囊" 
+			itemtype="0" 
+			unitprice="22.86" 
+			count="10" 
+			fee="228.6" 
+			usedate="20170104121212" 
+			bornflag="false" 
+			dose="12"	
+			specification="规格123456789012345678"	
+			unit="单位"	
+			howtouse="02"	
+			dosage="0"	
+			packaging="包装单位"	
+			minpackage="最小包装"	
+			conversion="1"	
+			days="12"	 
+			fee_type="1"
+			drugapprovalnumber ="H42021303" />
+			<feeitem  
+			itemno="3" 
+			recipeno="1" 
+			hiscode="150277" 
+			itemname="氨茶碱注射液" 
+			itemtype="0" 
+			unitprice="0.99" 
+			count="10" 
+			fee="9.9" 
+			usedate="20170104121212" 
+			bornflag="false" 
+			dose="12"	
+			specification="规格123456789012345678"	
+			unit="单位"	
+			howtouse="02"	
+			dosage="0"	
+			packaging="包装单位"	
+			minpackage="最小包装"	
+			conversion="1"	
+			days="12"	 
+			fee_type="1"
+			drugapprovalnumber ="H42021303" />
+		</feeitemarray>
+	</input>
+	
+</root>

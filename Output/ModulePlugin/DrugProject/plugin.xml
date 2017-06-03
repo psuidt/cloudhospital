@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="HIS_PublicManage"></assembly>
+    <assembly name="HIS_DrugManger"></assembly>
+    <assembly name="HIS_MaterialManager"></assembly>
+    <namespace name="HIS_PublicManage.Dao"></namespace>
+    <namespace name="HIS_DrugManger.Dao"></namespace>
+    <namespace name="HIS_MaterialManager.Dao"></namespace>
+    <container>
+      <register type="IPublicManageDao" mapTo="SqlPublicManageDao"></register>
+      <register type="IMemberInfoDao" mapTo="SqlMemberInfoDao"></register>
+      <register type="IDGDao" mapTo="SqlDGDao"></register>
+      <register type="IDSDao" mapTo="SqlDSDao"></register>
+      <register type="IDWDao" mapTo="SqlDWDao"></register>
+      <register type="IDrugStoreInfoDao" mapTo="SqlDrugStoreInfoDao"></register>
+      <register type="IMWDao" mapTo="SqlMWDao"></register>
+    </container>
+  </unity>
+  <plugin name="DrugProject.Service" version="1.0" title="药品物资项目服务" author="zenghao" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_Entity.dll" version="1.0" />
+      <dll name="HIS_DrugManger.dll" version="1.0" />
+      <dll name="HIS_MaterialManager.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

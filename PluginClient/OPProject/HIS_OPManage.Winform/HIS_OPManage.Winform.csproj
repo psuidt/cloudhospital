@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A7942185-4B69-4047-99E7-CADB5903AA08}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_OPManage.Winform</RootNamespace>
+    <AssemblyName>HIS_OPManage.Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL" />
+    <Reference Include="DevComponents.TreeGX, Version=11.0.0.0, Culture=neutral, PublicKeyToken=cfcbd7476b2389d1, processorArchitecture=MSIL" />
+    <Reference Include="EfwControls">
+      <HintPath>..\..\..\Output_Client\EfwControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_Entity">
+      <HintPath>..\..\..\Output_Client\HIS_Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_MIInterface.Interface">
+      <HintPath>..\..\..\Output_Client\ModulePlugin\MIProject\dll\HIS_MIInterface.Interface.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_OPManage">
+      <HintPath>..\..\..\Output\ModulePlugin\OPProject\dll\HIS_OPManage.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\Account\AllAccountController.cs" />
+    <Compile Include="Controller\Account\AccountController.cs" />
+    <Compile Include="Controller\Balance\BalancePrint.cs" />
+    <Compile Include="Controller\Balance\BalanceController.cs" />
+    <Compile Include="Controller\MIOPInterface.cs" />
+    <Compile Include="Controller\Register\DocSchedualController.cs" />
+    <Compile Include="Controller\Invoice\InvoiceController.cs" />
+    <Compile Include="Controller\Query\QueryController.cs" />
+    <Compile Include="Controller\Refund\RefundController.cs" />
+    <Compile Include="Controller\Register\RegBaseDataController.cs" />
+    <Compile Include="Controller\Register\RegisterController.cs" />
+    <Compile Include="IView\Account\IFrmAllAccount.cs" />
+    <Compile Include="IView\Account\IFrmAccount.cs" />
+    <Compile Include="IView\Balance\IFrmBalance.cs" />
+    <Compile Include="IView\Balance\IFrmAdjustInvoice.cs" />
+    <Compile Include="IView\Balance\IFrmRefundInfo.cs" />
+    <Compile Include="IView\Account\IFrmInvoiceDetail.cs" />
+    <Compile Include="IView\Query\IFrmInputPrintInvoice.cs" />
+    <Compile Include="IView\Query\IFrmOpCostSearch.cs" />
+    <Compile Include="IView\Register\IFrmQueryMember.cs" />
+    <Compile Include="IView\Register\IFrmRegPayMentInfo.cs" />
+    <Compile Include="IView\Register\IFrmCopySchedual.cs" />
+    <Compile Include="IView\Register\IFrmRegInvoiceInput.cs" />
+    <Compile Include="IView\Query\IFrmCostDetail.cs" />
+    <Compile Include="IView\Invoice\IFrmAllot.cs" />
+    <Compile Include="IView\Register\IFrmDocSchedual.cs" />
+    <Compile Include="IView\Invoice\IFrmInvoice.cs" />
+    <Compile Include="IView\Balance\IFrmOutPatient.cs" />
+    <Compile Include="IView\Balance\IFrmPayMentInfo.cs" />
+    <Compile Include="IView\Query\IFrmRecipteQuery.cs" />
+    <Compile Include="IView\Refund\IFrmRefundMessage.cs" />
+    <Compile Include="IView\Register\IFrmRegBaseDataSet.cs" />
+    <Compile Include="IView\Register\IFrmRegister.cs" />
+    <Compile Include="IView\Balance\IFrmRegList.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmRegList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmRegList.Designer.cs">
+      <DependentUpon>FrmRegList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmOutPatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmOutPatient.Designer.cs">
+      <DependentUpon>FrmOutPatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmRefundInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmRefundInfo.Designer.cs">
+      <DependentUpon>FrmRefundInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmPayMentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmPayMentInfo.Designer.cs">
+      <DependentUpon>FrmPayMentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmInvoiceDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmInvoiceDetail.Designer.cs">
+      <DependentUpon>FrmInvoiceDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmInputPrintInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmInputPrintInvoice.Designer.cs">
+      <DependentUpon>FrmInputPrintInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmQueryMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmQueryMember.Designer.cs">
+      <DependentUpon>FrmQueryMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegPayMentInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegPayMentInfo.Designer.cs">
+      <DependentUpon>FrmRegPayMentInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmRecipteQuery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmRecipteQuery.Designer.cs">
+      <DependentUpon>FrmRecipteQuery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmCostDetail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmCostDetail.Designer.cs">
+      <DependentUpon>FrmCostDetail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmAdjustInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmAdjustInvoice.Designer.cs">
+      <DependentUpon>FrmAdjustInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmCopySchedual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmCopySchedual.Designer.cs">
+      <DependentUpon>FrmCopySchedual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegInvoiceInput.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegInvoiceInput.Designer.cs">
+      <DependentUpon>FrmRegInvoiceInput.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegBaseDataSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegBaseDataSet.Designer.cs">
+      <DependentUpon>FrmRegBaseDataSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAllAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAllAccount.Designer.cs">
+      <DependentUpon>FrmAllAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Invoice\FrmAllot.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Invoice\FrmAllot.Designer.cs">
+      <DependentUpon>FrmAllot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmBalance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Balance\FrmBalance.Designer.cs">
+      <DependentUpon>FrmBalance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmDocSchedual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmDocSchedual.Designer.cs">
+      <DependentUpon>FrmDocSchedual.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Invoice\FrmInvoiceManager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Invoice\FrmInvoiceManager.Designer.cs">
+      <DependentUpon>FrmInvoiceManager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmOpCostSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Query\FrmOpCostSearch.Designer.cs">
+      <DependentUpon>FrmOpCostSearch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Refund\FrmRefundMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Refund\FrmRefundMessage.Designer.cs">
+      <DependentUpon>FrmRefundMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Register\FrmRegister.Designer.cs">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\Account\FrmAccount.Designer.cs">
+      <DependentUpon>FrmAccount.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmAllAccount.resx">
+      <DependentUpon>FrmAllAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmInvoiceDetail.resx">
+      <DependentUpon>FrmInvoiceDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmOutPatient.resx">
+      <DependentUpon>FrmOutPatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmRefundInfo.resx">
+      <DependentUpon>FrmRefundInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmRegList.resx">
+      <DependentUpon>FrmRegList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmPayMentInfo.resx">
+      <DependentUpon>FrmPayMentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Query\FrmInputPrintInvoice.resx">
+      <DependentUpon>FrmInputPrintInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Query\FrmRecipteQuery.resx">
+      <DependentUpon>FrmRecipteQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Query\FrmOpCostSearch.resx">
+      <DependentUpon>FrmOpCostSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmCopySchedual.resx">
+      <DependentUpon>FrmCopySchedual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmQueryMember.resx">
+      <DependentUpon>FrmQueryMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmRegBaseDataSet.resx">
+      <DependentUpon>FrmRegBaseDataSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmRegInvoiceInput.resx">
+      <DependentUpon>FrmRegInvoiceInput.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmRegister.resx">
+      <DependentUpon>FrmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmAdjustInvoice.resx">
+      <DependentUpon>FrmAdjustInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Balance\FrmBalance.resx">
+      <DependentUpon>FrmBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Query\FrmCostDetail.resx">
+      <DependentUpon>FrmCostDetail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Invoice\FrmAllot.resx">
+      <DependentUpon>FrmAllot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmDocSchedual.resx">
+      <DependentUpon>FrmDocSchedual.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Invoice\FrmInvoiceManager.resx">
+      <DependentUpon>FrmInvoiceManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Account\FrmAccount.resx">
+      <DependentUpon>FrmAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Refund\FrmRefundMessage.resx">
+      <DependentUpon>FrmRefundMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\Register\FrmRegPayMentInfo.resx">
+      <DependentUpon>FrmRegPayMentInfo.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MD $(SolutionDir)Output_Client\ModulePlugin\OPProject\dll
+Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output_Client\ModulePlugin\OPProject\dll\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

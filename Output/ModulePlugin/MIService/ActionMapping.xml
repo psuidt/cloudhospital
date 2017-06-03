@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<root>
+  <ActionMapping>
+    <action name="江西吉安" actionclass="GreatCommunicationLib.Server.CustomAction.TestAction">
+      <data name="hospitalId"  value="2"></data>
+      <data name="hospitalNo"  value=""></data>
+    </action>
+    
+    <action name="阿拉善" actionclass="GreatCommunicationLib.Server.CustomAction.阿拉善农合.AlashanAction">
+      <data name="hospitalId"  value="2"></data>
+      <data name="hospitalNo"  value="100001"></data>
+      <!--正式地址-->
+      <!--<data name="wsServer_url" value="http://110.18.70.154/interface_sjtc/HistoSjtc_Interface.asmx"></data>-->
+      <!--测试地址-->
+      <data name="wsServer_url" value="http://110.18.70.154/interface_sjtc_cs/HistoSjtc_Interface.asmx"></data>
+    </action>
+  </ActionMapping>
+  <CommonSetting>
+    <data name="timeswitch"  value="0"></data>
+    <data name="starttime"  value="16:04:00"></data>
+    <!--需要定时上传费用的医院（已|分割）-->
+    <data name="HospitalList"  value="33|29"></data>
+    <data name="autoreboot"  value="00:00:00"></data>
+  </CommonSetting>
+  
+  <!--测试服务器属性-->
+  <HospitalData>
+    <hospital hospitalId="2" actionclass="GreatCommunicationLib.Server.CustomAction.阿拉善农合.AlashanAction">
+      <!--Name:用户ID,value:农合用户名|农合密码|农合人员编码-->
+      <data name="YBUserName" value="bymrwsy|1|0100001101"></data>
+      <!--医院属性,value:医疗结构编码|机构等级-->
+      <data name="HospitalAttribute" value="15292112000002|2"></data>
+      <!--行政区编码-->
+      <data name="Cantoncode" value="152921"></data>
+    </hospital>
+  </HospitalData>
+  
+  <MedicalInsuranceData>
+	<MedicalInsurance typeId="1" Name="社保">
+		<method name="GetHospitalName">
+		<!--例子/北京-->
+			<data name="HospitalName" value="北京"></data>
+		</method>
+		<method name="ExportHisLog">
+			<!--导出的文件类型，1：excel 2：text-->
+			<data name="filetype" value="2"></data>
+			<!--需要的字段，是键值对的，用|分割键值对,用逗号分割key和value，这里的key对应的是程序界面的字段名，value对应的是医保需要的字段名；如果医保需要而程序没有，则用|，医保字段|表示-->
+			<!--ItemID,目录ID|ItemCode,目录编码|ItemName,目录名称|Standard,目录规格|Dosage,目录剂型|UnPickUnit,单位|SellPrice,目录单价|ItemClass,目录类型|StatID,暂留字段|FacName,目录厂家-->
+			<data name="YpColumnNames" value="ItemID,HIS药品编码|ItemName,HIS药品名称|MedicareItemCode,对照的药品编码|Standard,规格|UnPickUnit,计量单位|SellPrice,单价"></data>
+			<data name="ZCYColumnNames" value="ItemID,HIS药品编码|Standard,HIS药品名称|MedicareItemCode,对照的药品编码|ItemName,规格|UnPickUnit,计量单位|SellPrice,单价"></data>
+			<data name="XmColumnNames" value="ItemID,HIS项目编码|ItemName,HIS项目名称|MedicareItemCode,对照的项目编码|UnPickUnit,计量单位|SellPrice,单价"></data>
+			<data name="ClColumnNames" value="ItemID,HIS材料编码|ItemName,HIS材料名称|MedicareItemCode,对照的材料编码|UnPickUnit,计量单位|SellPrice,单价"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+		<method name="ImportMILog">
+			<!--导入的文件类型，1：excel 2：text-->
+			<data name="filetype" value="1"></data>
+			<!--需要的字段，是键值对的，用|分割键值对-->
+			<data name="columnNames" value="ItemCode,HIS药品编码|ItemName,HIS药品名称|Spec,规格|Unit,计量单位|Price,单价|Factory,生产厂家"></data>
+			<data name="columnNames" value="ItemCode,HIS药品编码|ItemName,HIS药品名称|Spec,规格|Unit,计量单位|Price,单价|Dosage,剂型|ItemLevel,项目等级|Factory,生产厂家|IsYBFlag,可报"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+		<method name="ImportMatchLog">
+			<!--导出的文件类型，1：excel 2：text-->
+			<data name="filetype" value="2"></data>
+			<!--需要的字段，是键值对的，用|分割键值对,用逗号分割key和value，这里的key对应的是医保文件的字段名，value对应的是程序界面的字段名；如果程序有而医保没有，则将多余的放在最后面-->
+			<!--状态,AuditFlag|审核时间,AuditDate|目录类型,ItemType|HIS目录编码,ItemCode|HIS目录名称,HospItemName|规格,Spec|剂型,Dosage|单位,Unit|价格,Price|生产厂家,Factory|医保目录编码,YBItemCode|医保目录名称,YBItemName|医保规格,YBSpec|医保剂型,YBDosage|医保单位,YBUnit|医保价格,YBPrice|医保生产厂家,YBFactory-->
+			<data name="columnNames"     value="状态,AuditFlag|审核时间,AuditDate|目录类型,ItemType|HIS目录编码,ItemCode|HIS目录名称,HospItemName|医保目录编码,YBItemCode|医保目录名称,YBItemName|医保规格,YBSpec|医保剂型,YBDosage|医保单位,YBUnit|医保价格,YBPrice|收费等级,YBItemLevel|收费类别,YBItemType|备注,Memo"></data>
+			<data name="columnNamesYP" value="HIS目录编码,ItemCode|HIS目录名称,HospItemName|医保目录编码,YBItemCode|医保目录名称,YBItemName|医保剂型,YBDosage|医保规格,YBSpec|医保单位,YBUnit|医保价格,YBPrice|收费等级,YBItemLevel|收费类别,YBItemType|备注,Memo|状态,AuditFlag|审核时间,AuditDate|目录类型,ItemType"></data>
+			<data name="columnNamesSFXM" value="HIS目录编码,ItemCode|HIS目录名称,HospItemName|医保目录编码,YBItemCode|医保目录名称,YBItemName|医保单位,YBUnit|医保价格,YBPrice|收费等级,YBItemLevel|收费类别,YBItemType|备注,Memo|状态,AuditFlag|审核时间,AuditDate|目录类型,ItemType"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+		<method name="ExportPatientFee">
+			<!--导出的文件类型，1：excel 2：text-->
+			<data name="filetype" value="2"></data>
+			<!--需要的字段，是键值对的，用|分割键值对,用逗号分割key和value，这里的key对应的是医保文件的字段名，value对应的是程序界面的字段名；如果程序有而医保没有，则用|医保字段，|表示-->
+			<!--如果导出文件中需要2种或者多种DataTable，按DataTable的顺序把字段列出，用“^”分割-->
+			<!--,项目序号|ItemID,HIS目录ID|YBItemCode,医保目录编码|ItemName,目录名称|FeeClass,项目类别|StatID,收费类别|,剂型|Spec,目录规格|Unit,单位|SellPrice,目录单价|Amount,数量|TotalFee,总费用|ChargeDate,费用时间|,是否出院带药|,特需标识-->
+			<data name="columnNames" value="SerialNumber,住院号|PatName,姓名|Sex,性别|IdentityNum,身份证号^FeeRecordID,项目序号|ItemID,HIS目录ID|YBItemCode,医保目录编码|ItemName,目录名称|FeeClass,项目类别|StatID,收费类别|Dosage,剂型|Spec,目录规格|Unit,单位|SellPrice,目录单价|Amount,数量|TotalFee,总费用|ChargeDate,费用时间|IsOut,是否出院带药|Memo,特需标识|NationalCode,药品批准文号"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+		<method name="ImportMIRecord">
+			<!--导出的文件类型，1：excel 2：text-->
+			<data name="filetype" value="2"></data>
+			<data name="columnNamesHead"   value="TradeNO,TradeNO|PersonalCode,PersonalCode|IdentityNum,IdentityNum|PatientName,PatientName|FeeNO,FeeNO|TradeTime,TradeTime|MedicalType,MedicalType|FeeAll,FeeAll|FeeFund,FeeFund|FeeCash,FeeCash|PersonCountPay,PersonCountPay|PersonCount,PersonCount|FeeMIIn,FeeMIIn|FeeMIOut,FeeMIOut|FeeDeductible,FeeDeductible|FeeSelfPay,FeeSelfPay|FeeBigPay,FeeBigPay|FeeBigSelfPay,FeeBigSelfPay|FeeOutOFPay,FeeOutOFPay|Feebcbx,Feebcbx|Feejcbz,Feejcbz|medicine,medicine|tmedicine,tmedicine|therb,therb|labexam,labexam|xray,xray|ultrasonic,ultrasonic|CT,CT|mri,mri|examine,examine|treatment,treatment|material,material|operation,operation|oxygen,oxygen|bloodt,bloodt|orthodontics,orthodontics|prosthesis,prosthesis|forensic_expertise,forensic_expertise|other,other"></data>
+			<data name="columnNamesDetail" value="tradeno,tradeno|itemno,itemno|hiscode,hiscode|itemcode,itemcode|itemname,itemname|itemtype,itemtype|unitprice,unitprice|count,count|fee,fee|feein,feein|feeout,feeout|selfpay2,selfpay2|state,state|feetype,feetype|preferentialfee,preferentialfee|preferentialscale,preferentialscale"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+		<method name="ExportJZXX">
+			<!--导出的文件类型，1：excel 2：text-->
+			<data name="filetype" value="2"></data>
+			<!--需要的字段，是键值对的，用|分割键值对,用逗号分割key和value，这里的key对应的是程序界面的字段名，value对应的是医保需要的字段名；如果医保需要而程序没有，则用|，医保字段|表示-->
+			<!--ItemID,目录ID|ItemCode,目录编码|ItemName,目录名称|Standard,目录规格|Dosage,目录剂型|UnPickUnit,单位|SellPrice,目录单价|ItemClass,目录类型|StatID,暂留字段|FacName,目录厂家-->
+			<data name="ColumnNames" value="TradeTime,就诊日期|tradeno,挂号交易流水号|jzflag,接诊标识"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+	</MedicalInsurance>
+	<MedicalInsurance typeId="2" Name="农村合作医疗">
+			<method name="ImportMILog">
+			<!--导入的文件类型，1：excel 2：text-->
+			<data name="filetype" value="1"></data>
+			<!--需要的字段，是键值对的，用|分割键值对-->
+			<data name="columnNames" value="ItemCode,HIS药品编码|ItemName,HIS药品名称|Spec,规格|Unit,计量单位|Price,单价|Factory,生产厂家"></data>
+			<!--如果是text的需要用字段间和行间的分隔符-->
+			<data name="separator" value="|"></data>
+		</method>
+	</MedicalInsurance>
+  </MedicalInsuranceData>
+</root>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"  standalone="yes"?>
+<root version="2.003">
+  <state success="true">
+    <error />
+    <warning no="0" info="与医保中心通讯中断,不能取得个人帐户,定点医疗机构等信息,请联系网络管理员查看网络运行状况" />
+  </state>
+  <output name="输出部分">
+    <personcountaftersub name="本次结算后个人帐户余额">2.00</personcountaftersub>
+    <certid name="个人数字证书ID" />
+    <sign name="交易签名结果" />
+  </output>
+</root>

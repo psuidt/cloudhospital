@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <container>
+    </container>
+  </unity>
+  <plugin name="OPProject.UI" version="1.0" title="门诊项目客户端插件" author="zenghao" plugintype="Winform" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_MemberManage.Winform.dll" version="1.0" />
+      <dll name="HIS_OPDoctor.Winform.dll" version="1.0" />
+      <dll name="HIS_OPManage.Winform.dll" version="1.0" />
+      <dll name="HIS_OPNurse.Winform.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

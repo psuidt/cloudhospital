@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="MI_MIInterface"></assembly>
+    <namespace name="MI_MIInterface.Dao"></namespace>
+    <container>
+      <register type="IMatchInterface" mapTo="SqlMatchInterface"></register>
+      <register type="IMZInterface" mapTo="SqlMZInterface"></register>
+      <register type="IZYInterface" mapTo="SqlZYInterface"></register>
+    </container>
+  </unity>
+  <plugin name="MIService.Service" version="1.0" title="医保接口医院端服务" author="xzb" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <!--<dll name="HIS_Entity.dll" version="1.0" />-->
+      <dll name="MI_MIInterface.dll" version="1.0" />      
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

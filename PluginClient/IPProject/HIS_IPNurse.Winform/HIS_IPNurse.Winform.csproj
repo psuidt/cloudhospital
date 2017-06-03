@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AE17FF8D-B396-4D5E-B682-7A50EBE54312}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_IPNurse.Winform</RootNamespace>
+    <AssemblyName>HIS_IPNurse.Winform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevComponents.DotNetBar.SuperGrid, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\DevComponents.DotNetBar.SuperGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="DevComponents.DotNetBar2, Version=11.0.0.0, Culture=neutral, PublicKeyToken=c39c3242a43eee2b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\DevComponents.DotNetBar2.dll</HintPath>
+    </Reference>
+    <Reference Include="EfwControls, Version=2.2.3.432, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\EfwControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_Entity, Version=2.2.3.430, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\HIS_Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\Component\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\DocOrderExpenseCheckController.cs" />
+    <Compile Include="Controller\DoctorManagementController.cs" />
+    <Compile Include="Controller\ExamListController.cs" />
+    <Compile Include="Controller\ExecBillRecordController.cs" />
+    <Compile Include="Controller\OrderCheckController.cs" />
+    <Compile Include="IView\IDocOrderExpenseCheck.cs" />
+    <Compile Include="IView\IDoctorManagement.cs" />
+    <Compile Include="IView\IExamList.cs" />
+    <Compile Include="IView\IExecBillRecord.cs" />
+    <Compile Include="IView\IFeePresDate.cs" />
+    <Compile Include="IView\IOrderCheck.cs" />
+    <Compile Include="IView\IPrintExamConfirm.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDocOrderExpenseCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDocOrderExpenseCheck.Designer.cs">
+      <DependentUpon>FrmDocOrderExpenseCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmDoctorManagement.Designer.cs">
+      <DependentUpon>FrmDoctorManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmExamList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmExamList.Designer.cs">
+      <DependentUpon>FrmExamList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmExecBillRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmExecBillRecord.Designer.cs">
+      <DependentUpon>FrmExecBillRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmFeePresDate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmFeePresDate.Designer.cs">
+      <DependentUpon>FrmFeePresDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmOrderCheck.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmOrderCheck.Designer.cs">
+      <DependentUpon>FrmOrderCheck.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewForm\FrmPrintExamConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewForm\FrmPrintExamConfirm.Designer.cs">
+      <DependentUpon>FrmPrintExamConfirm.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDocOrderExpenseCheck.resx">
+      <DependentUpon>FrmDocOrderExpenseCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmDoctorManagement.resx">
+      <DependentUpon>FrmDoctorManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmExamList.resx">
+      <DependentUpon>FrmExamList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmExecBillRecord.resx">
+      <DependentUpon>FrmExecBillRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmFeePresDate.resx">
+      <DependentUpon>FrmFeePresDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmOrderCheck.resx">
+      <DependentUpon>FrmOrderCheck.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewForm\FrmPrintExamConfirm.resx">
+      <DependentUpon>FrmPrintExamConfirm.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\保存.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\编辑.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\病人医嘱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冲账.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\冲账2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\出院.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\出院带药.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\出院医嘱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\打印.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\导入.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\读卡.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\发药.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\分配.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\复制.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\关闭.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\过滤.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\合组.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\换方.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\交病人.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\结束就诊.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\批量.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\启用.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\清零.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\清屏.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\取消.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\删除.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\上传.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\设置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\申请.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\审核.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\收费.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\刷新.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\死亡医嘱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\搜索.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\停用.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\统计.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\维护.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\新增.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\月结.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\重置.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\注销.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\转科医嘱.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\自备.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MD $(SolutionDir)Output_Client\ModulePlugin\IPProject\dll
+Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output_Client\ModulePlugin\IPProject\dll"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--../../tools/Foxmail/Local Settings/tools/Foxmail/Temp/open3.xml - #-->
+<root version="2.003">
+  <!-- ../../tools/Foxmail/Local Settings/tools/Foxmail/Temp/open3.xml - #-->
+  <state success="true">
+    <error no="0" info="未找到该交易!" />
+    <warning no="0" info="" />
+  </state>
+  <detailreprintflag name = "明细另行打印标识">0</detailreprintflag>
+</root>

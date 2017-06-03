@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1E7366C4-1850-4429-89E8-8561B6B855BA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_DrugManger</RootNamespace>
+    <AssemblyName>HIS_DrugManger</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\..\..\Output_Client\Component\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity, Version=1.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\Component\Microsoft.Practices.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.Unity.Interception, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Component\Microsoft.Practices.Unity.Interception.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Dao\SqlDGDao.cs" />
+    <Compile Include="Dao\SqlDSDao.cs" />
+    <Compile Include="Dao\SqlDWDao.cs" />
+    <Compile Include="Dao\IDGDao.cs" />
+    <Compile Include="Dao\IDSDao.cs" />
+    <Compile Include="Dao\IDWDao.cs" />
+    <Compile Include="ObjectModel\Account\AccountFactory.cs" />
+    <Compile Include="ObjectModel\Account\AccountQuery.cs" />
+    <Compile Include="ObjectModel\Account\DrugPay.cs" />
+    <Compile Include="ObjectModel\Account\DSAccountQuery.cs" />
+    <Compile Include="ObjectModel\Account\DSBalance.cs" />
+    <Compile Include="ObjectModel\Account\DrugBalance.cs" />
+    <Compile Include="ObjectModel\Account\DWAccountQuery.cs" />
+    <Compile Include="ObjectModel\Account\DWBalance.cs" />
+    <Compile Include="ObjectModel\BaseData\DosageMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugConfigMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugDeptMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugTypeMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugMakerDicMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\PharmacyMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugProductMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\RelateDeptMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugSpecDicMgr.cs" />
+    <Compile Include="ObjectModel\BaseData\DrugSupplyMgr.cs" />
+    <Compile Include="ObjectModel\Bill\DGAdjPriceBill.cs" />
+    <Compile Include="ObjectModel\Bill\DGBillConverter.cs" />
+    <Compile Include="ObjectModel\Bill\DGBillFactory.cs" />
+    <Compile Include="ObjectModel\Bill\DSApplyStoreBill.cs" />
+    <Compile Include="ObjectModel\Bill\DSBill.cs" />
+    <Compile Include="ObjectModel\Bill\DSCheckBill.cs" />
+    <Compile Include="ObjectModel\Bill\DSInStoreBill.cs" />
+    <Compile Include="ObjectModel\Bill\DSOutStoreBill.cs" />
+    <Compile Include="ObjectModel\Bill\DWBill.cs" />
+    <Compile Include="ObjectModel\Bill\DWCheckBill.cs" />
+    <Compile Include="ObjectModel\Bill\DWInStoreBill.cs" />
+    <Compile Include="ObjectModel\Bill\DWOutStoreBill.cs" />
+    <Compile Include="ObjectModel\Bill\IDGBill.cs" />
+    <Compile Include="ObjectModel\Bill\IPDispBill.cs" />
+    <Compile Include="ObjectModel\Bill\OPDispBill.cs" />
+    <Compile Include="ObjectModel\Bill\DGPurchaseBill.cs" />
+    <Compile Include="ObjectModel\Store\DSStore.cs" />
+    <Compile Include="ObjectModel\Store\DWStore.cs" />
+    <Compile Include="ObjectModel\Store\IStore.cs" />
+    <Compile Include="ObjectModel\Store\StoreFactory.cs" />
+    <Compile Include="ObjectModel\Store\StoreParam.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="WcfController\AdjPriceController.cs" />
+    <Compile Include="WcfController\ApplyStoreController.cs" />
+    <Compile Include="WcfController\BalanceController.cs" />
+    <Compile Include="WcfController\CheckStoreController.cs" />
+    <Compile Include="WcfController\DrugPramentController.cs" />
+    <Compile Include="WcfController\DosageController.cs" />
+    <Compile Include="WcfController\DrugDeptController.cs" />
+    <Compile Include="WcfController\DrugDicController.cs" />
+    <Compile Include="WcfController\DrugTypeController.cs" />
+    <Compile Include="WcfController\FinanceController.cs" />
+    <Compile Include="WcfController\InStoreController.cs" />
+    <Compile Include="WcfController\IPDispController.cs" />
+    <Compile Include="WcfController\LocationController.cs" />
+    <Compile Include="WcfController\OPDispController.cs" />
+    <Compile Include="WcfController\OutStoreController.cs" />
+    <Compile Include="WcfController\PharmacyController.cs" />
+    <Compile Include="WcfController\ProductController.cs" />
+    <Compile Include="WcfController\PurchaseController.cs" />
+    <Compile Include="WcfController\RelateDeptController.cs" />
+    <Compile Include="WcfController\ReportController.cs" />
+    <Compile Include="WcfController\ResolveController.cs" />
+    <Compile Include="WcfController\SetLimitController.cs" />
+    <Compile Include="WcfController\QueryStoreController.cs" />
+    <Compile Include="WcfController\SupplyController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\PublicProject\HIS_Entity\HIS_Entity.csproj">
+      <Project>{e74cb0ed-0009-4375-a089-c181ffe0500b}</Project>
+      <Name>HIS_Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\PublicProject\HIS_PublicManage\HIS_PublicManage.csproj">
+      <Project>{E46A826E-5E35-4514-BD02-0088BA4743BC}</Project>
+      <Name>HIS_PublicManage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ObjectModel\Report\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output\ModulePlugin\DrugProject\dll\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

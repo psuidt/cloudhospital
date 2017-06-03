@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root version="2.003">
+  <state success="true">
+    <error no="1" info="读卡失败,请插入社保卡!" />
+    <error no="2" info="该卡片已经挂失,不能使用!" />
+    <warning no="1" info="与医保中心通讯中断,不能取得个人帐户,定点医疗机构等信息,请联系网络管理员查看网络运行状况" />
+  </state>
+  <output name="输出部分">
+    <ic>
+      <card_no name="社保卡卡号">123456789</card_no>
+      <ic_no name="医保应用号">0123</ic_no>
+      <id_no name="公民身份号码">423650196205063265</id_no>
+      <personname name="姓名">测试</personname>
+      <sex name="性别">男</sex>
+      <birthday name="出生日期">19620506</birthday>
+      <fromhosp name="转诊医院编码" ></fromhosp>
+      <fromhospdate name="转诊时限" />
+      <fundtype name="险种类型:老少,居民,职工,公疗" >职工</fundtype>
+      <isyt name="预提人员标示" />
+      <jclevel name="军残等级" />
+      <hospflag name="在院标示" >0</hospflag>
+    </ic>
+    <net>
+      <persontype name="参保人员类别" />
+      <isinredlist name="是否在红名单">0</isinredlist>
+      <isspecifiedhosp name="本人定点医院状态 0:本地红名单，默认为本人定点医院； 1：是本人定点医院、A类医院、专科医院、中医医院；2：不是本人定点医院 3：转诊">1</isspecifiedhosp>
+      <ischronichosp name="是否本人慢病定点医院"/>
+      <personcount name="个人帐户余额" >500</personcount>
+      <chroniccode name="慢病编码"/>
+    </net>
+  </output>
+</root>

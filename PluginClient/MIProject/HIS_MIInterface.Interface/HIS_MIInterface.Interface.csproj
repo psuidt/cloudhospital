@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{56A2B1A9-93CD-4AD5-9B40-B2C3D0E3FEAD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HIS_MIInterface.Interface</RootNamespace>
+    <AssemblyName>HIS_MIInterface.Interface</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EfwControls, Version=2.2.3.432, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\EfwControls.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.CoreFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.CoreFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WcfFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WcfFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="EFWCoreLib.WinformFrame">
+      <HintPath>..\..\..\Component\EFWCoreLib.WinformFrame.dll</HintPath>
+    </Reference>
+    <Reference Include="HIS_Entity, Version=2.2.3.429, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Output_Client\HIS_Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.MedicareComLib">
+      <HintPath>..\..\..\Component\Interop.MedicareComLib.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Caching">
+      <HintPath>..\..\..\Component\Microsoft.Practices.EnterpriseLibrary.Caching.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseClass\AbstractAction.cs" />
+    <Compile Include="BaseClass\AbstractHISDao.cs" />
+    <Compile Include="BaseClass\AbstractMIAction.cs" />
+    <Compile Include="BaseClass\MIMatchInterface.cs" />
+    <Compile Include="BaseClass\MIMzInterface.cs" />
+    <Compile Include="BaseClass\MIZyInterface.cs" />
+    <Compile Include="CustomAction\例子\BusiClass\DivideResult.cs" />
+    <Compile Include="CustomAction\例子\BusiClass\RegClass.cs" />
+    <Compile Include="CustomAction\例子\CustomAction.cs" />
+    <Compile Include="CustomAction\例子\CustomMIInterfaceDao.cs" />
+    <Compile Include="CustomAction\例子\SiInterface.cs" />
+    <Compile Include="CustomAction\北京\BusiClass\DivideResult.cs" />
+    <Compile Include="CustomAction\北京\BusiClass\RegClass.cs" />
+    <Compile Include="CustomAction\北京\CustomAction.cs" />
+    <Compile Include="CustomAction\北京\CustomMIInterfaceDao.cs" />
+    <Compile Include="CustomAction\北京\SiInterface.cs" />
+    <Compile Include="CustomAction\北京健恒\BusiClass\DivideResult.cs" />
+    <Compile Include="CustomAction\北京健恒\BusiClass\RegClass.cs" />
+    <Compile Include="CustomAction\北京健恒\CustomAction.cs" />
+    <Compile Include="CustomAction\北京健恒\CustomMIInterfaceDao.cs" />
+    <Compile Include="CustomAction\北京健恒\SiInterface.cs" />
+    <Compile Include="MIInterFace.cs" />
+    <Compile Include="MIInterFaceFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PluginServer\MIProject\SiInterface\SiInterfaceDll.csproj">
+      <Project>{cdd9de26-bc67-4799-bf8a-961d27d533e7}</Project>
+      <Name>SiInterfaceDll</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>MD $(SolutionDir)Output_Client\ModulePlugin\MIProject\dll
+Copy "$(TargetDir)\$(TargetFileName)" "$(SolutionDir)Output_Client\ModulePlugin\MIProject\dll\"</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

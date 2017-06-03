@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="HIS_OPManage"></assembly>
+    <assembly name="HIS_PublicManage"></assembly>
+    <assembly name="HIS_MemberManage"></assembly>
+    <assembly name="HIS_OPDoctor"></assembly>
+    <namespace name="HIS_OPManage.Dao"></namespace>
+    <namespace name="HIS_PublicManage.Dao"></namespace>
+    <namespace name="HIS_MemberManage.Dao"></namespace>
+    <namespace name="HIS_OPDoctor.Dao"></namespace>
+    <container>
+      <register type="IOPManageDao" mapTo="SqlOPManageDao"></register>
+      <register type="IPublicManageDao" mapTo="SqlPublicManageDao"></register>
+      <register type="IMemberInfoDao" mapTo="SqlMemberInfoDao"></register>
+      <register type="IOPMemberInfoDao" mapTo="SqlOPMemberInfoDao"></register>
+      <register type="IOPMemberAccountDao" mapTo="SqlOPMemberAccountInfoDao"></register>
+      <register type="IOPConvertPoints" mapTo="SqlOPConvertPoints"></register>
+      <register type="IOPGiftDao" mapTo="SqlOPGiftDao"></register>
+      <register type="IOPPromotionProject" mapTo="SqlOPPromotionProject"></register>
+      <register type="IPromotionProjectDao" mapTo="SqlPromotionProject"></register>
+      <register type="IDrugStoreInfoDao" mapTo="SqlDrugStoreInfoDao"></register>
+      <register type="IOPDiscountListDao" mapTo="SqlOPDiscountListDao"></register>
+      <register type="IOPDDao" mapTo="SqlOPDDao"></register>
+      <register type="IOPPresTemplate" mapTo="SqlOPPresTemplate"></register>
+    </container>
+  </unity>
+  <plugin name="OPProject.Service" version="1.0" title="门诊项目服务" author="heyan" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_Entity.dll" version="1.0" />
+      <dll name="HIS_MemberManage.dll" version="1.0" />
+      <dll name="HIS_OPDoctor.dll" version="1.0" />
+      <dll name="HIS_OPManage.dll" version="1.0" />
+      <dll name="HIS_OPNurse.dll" version="1.0" />
+      <dll name="HIS_PublicManage.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

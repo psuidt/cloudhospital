@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<root version="2.003">
+	<state success="true">
+		<error no="0" info="读卡失败,请插入社保卡!" /> 
+		<warning no="0" info="" /> 
+	</state>
+	<output name="输出部分">
+		<ic>
+			<card_no name="社保卡卡号">107765716001</card_no> 
+			<ic_no name="医保应用号">10776571600S</ic_no> 
+			<id_no name="公民身份号码">110101194808074025</id_no> 
+			<personname name="姓名">刘亮</personname> 
+			<sex name="性别">1</sex> 
+			<birthday name="出生日期">19480807</birthday> 
+		</ic>
+	</output>
+</root>

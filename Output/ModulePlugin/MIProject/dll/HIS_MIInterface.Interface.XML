@@ -1,0 +1,889 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HIS_MIInterface.Interface</name>
+    </assembly>
+    <members>
+        <member name="T:HIS_MIInterface.Interface.BaseClass.AbstractAction">
+            <summary>
+            处理对象基类
+            </summary>
+        </member>
+        <member name="T:HIS_MIInterface.Interface.BaseClass.AbstractHISDao">
+            <summary>
+            HIS端的操作，连接后台 服务
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_PreviewRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            预登记
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_Register(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            确认登记
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.Mz_CancelRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消登记
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_PreviewCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            预结算
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_Charge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            结算
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_UpdateRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            挂号成功更新登记表
+            </summary>
+            <param name="inputClass">RegID，SerNO</param>
+            <returns>bool,string</returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.AbstractHISDao.MZ_CancelCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消结算
+            </summary>
+            <param name="inputClass"></param>
+            <returns></returns>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.BaseClass.AbstractMIAction`2.hisDao">
+            <summary>
+            操作HIS数据库的对象
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.BaseClass.AbstractMIAction`2.ybInterfaceDao">
+            <summary>
+            操作医保接口的对象
+            </summary>
+        </member>
+        <member name="T:HIS_MIInterface.Interface.BaseClass.MIMatchInterface">
+            <summary>
+            目录匹配接口处理
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_DownLoadDrugContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载中心药品目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_DownLoadItemContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载中心项目目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_DownLoadMaterialsContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载中心材料目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_JudgeSingleContentMatch(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            判断单条目录是否已匹配
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_UploadMatchContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            上传匹配的目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_ResetMatchContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            重置匹配目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_DeleteMatchContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            删除匹配目录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_DownLoadHospContent(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载医院审核项目信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_UpLoadDept(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            上传科室
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMatchInterface.M_UpLoadStaff(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            上传人员信息
+            </summary>
+        </member>
+        <member name="T:HIS_MIInterface.Interface.BaseClass.MIMzInterface">
+            <summary>
+            医保报销门诊接口处理
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_GetCardInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            获取卡片信息病人列表
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_GetPersonInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            根据身份证号查找农合病人
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_PreviewRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            门诊预登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_Register(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_UpdateRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            门诊登记后更新
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_CancelRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_PreviewCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            预算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_Charge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_CancelCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消门诊结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_UploadzyPatFee(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            上传门诊病人费用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIMzInterface.MZ_DownloadzyPatFee(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载门诊病人费用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HIS_MIInterface.Interface.BaseClass.MIZyInterface">
+            <summary>
+            医保报销住院接口处理
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_GetHospitalInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            医疗机构信息
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_GetPatientInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            得到病人信息数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_Register(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            入院
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_AlterRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            修改入院信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_CancelRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消入院
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_UploadzyPatFee(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            上传病人费用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_DownloadzyPatFee(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            下载病人费用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_DeleteFeeDetail(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            删除社保处方
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_PreviewCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            预算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_Charge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.BaseClass.MIZyInterface.ZY_CancelCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消出院结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="F:HIS_MIInterface.Interface.CustomAction.例子.DivideResult.medicatalog.medicine">
+            <summary>
+            西药
+            </summary>
+        </member>
+        <member name="F:HIS_MIInterface.Interface.CustomAction.例子.DivideResult.medicatalog2.diagnosis">
+            <summary>
+            西药
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.tradeinfo.curetype">
+            <summary>
+            就诊类型，11门诊，19急诊，17门诊挂号，18急诊挂号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.tradeinfo.billtype">
+            <summary>
+            就诊方式 0普通 其他未启用
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.tradeinfo.feeno">
+            <summary>
+            收费单据号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.diagnoseno">
+            <summary>
+            诊断序号--多诊断时，处方信息应该为多条记录，处方序号相同，诊断序号不同，一个诊断名称对应一个诊断编码。
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.recipeno">
+            <summary>
+            处方序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.recipedate">
+            <summary>
+            处方日期/时间 开处方的日期；格式yyyymmdd hhmmss；如果是预约挂号，则填写预约的就诊日期。
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.hissectionname">
+            <summary>
+            本院科别名称
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.recipetype">
+            <summary>
+            处方类别 1：医保内处方2：医保外处方
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.recipe.helpmedicineflag">
+            <summary>
+            代开药标识 0：普通处方；1:代开药处方
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.itemno">
+            <summary>
+            项目序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.recipeno">
+            <summary>
+            处方序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.hiscode">
+            <summary>
+            HIS项目代码
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.itemname">
+            <summary>
+            HIS项目名称
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.itemtype">
+            <summary>
+            项目类别 0药品 1诊疗项目和服务设施
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.例子.Reg.feeitem.babyflag">
+            <summary>
+            生育费用标识 0：普通费用；1:生育类费用；对生育类门诊费用没有特殊处理的医院，可以不生成该节点；如使用并生成该节点，
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.Mz_GetCardInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用读取卡片信息接口
+            </summary>
+            <param name="b"></param>
+            <param name="s"></param>
+            <param name="dt"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.Mz_GetPersonInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            获取病人信息
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_PreviewRegister(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.例子.Reg.root)">
+            <summary>
+            门诊预登记
+            </summary>
+            <param name="root"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_Register(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.Mz_CancelRegister(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            取消门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_PreviewCharge(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.例子.Reg.root)">
+            <summary>
+            预算
+            </summary>
+            <param name="b"></param>
+            <param name="s"></param>
+            <param name="dt"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_Charge(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_CancelCharge(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            取消门诊结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_UploadzyPatFee">
+            <summary>
+            上传门诊病人费用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.CustomMIInterfaceDao.MZ_DownloadzyPatFee">
+            <summary>
+            下载门诊病人费用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.OpenDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用打开读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.CloseDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用关闭读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.GetCardInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用读取卡片信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.GetPersonInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用获取个人信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.Divide(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.例子.Reg.root)">
+            <summary>
+            分解费用
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.Trade(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用交易确认接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.RefundmentDivide(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用费用退费分解接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.RePrintInvoice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用收据重打接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.MedicareQuery(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用医保查询接口
+            </summary>
+            <param name="sDll"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.CommitTradeState(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用交易状态查询及回退接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.CheckOutputState(System.Xml.XmlDocument,System.Boolean@,System.String@)">
+            <summary>
+            1.读取调用信息，如果失败.读取错误信息；如果成功.读取警告信息；读取信息
+            </summary>
+            <param name="xmlDoc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.例子.SiInterface.GetNodeFromPath(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取结果
+            </summary>
+            <param name="oParentNode"></param>
+            <param name="sPath"></param>
+            <returns></returns>
+        </member>
+        <member name="F:HIS_MIInterface.Interface.CustomAction.北京.DivideResult.medicatalog.medicine">
+            <summary>
+            西药
+            </summary>
+        </member>
+        <member name="F:HIS_MIInterface.Interface.CustomAction.北京.DivideResult.medicatalog2.diagnosis">
+            <summary>
+            西药
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.tradeinfo.curetype">
+            <summary>
+            就诊类型，11门诊，19急诊，17门诊挂号，18急诊挂号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.tradeinfo.billtype">
+            <summary>
+            就诊方式 0普通 其他未启用
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.tradeinfo.feeno">
+            <summary>
+            收费单据号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.diagnoseno">
+            <summary>
+            诊断序号--多诊断时，处方信息应该为多条记录，处方序号相同，诊断序号不同，一个诊断名称对应一个诊断编码。
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.recipeno">
+            <summary>
+            处方序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.recipedate">
+            <summary>
+            处方日期/时间 开处方的日期；格式yyyymmdd hhmmss；如果是预约挂号，则填写预约的就诊日期。
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.hissectionname">
+            <summary>
+            本院科别名称
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.recipetype">
+            <summary>
+            处方类别 1：医保内处方2：医保外处方
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.recipe.helpmedicineflag">
+            <summary>
+            代开药标识 0：普通处方；1:代开药处方
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.itemno">
+            <summary>
+            项目序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.recipeno">
+            <summary>
+            处方序号
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.hiscode">
+            <summary>
+            HIS项目代码
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.itemname">
+            <summary>
+            HIS项目名称
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.itemtype">
+            <summary>
+            项目类别 0药品 1诊疗项目和服务设施
+            </summary>
+        </member>
+        <member name="P:HIS_MIInterface.Interface.CustomAction.北京.Reg.feeitem.babyflag">
+            <summary>
+            生育费用标识 0：普通费用；1:生育类费用；对生育类门诊费用没有特殊处理的医院，可以不生成该节点；如使用并生成该节点，
+            </summary>
+        </member>
+        <member name="T:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao">
+            <summary>
+            医保端的操作，可连接前台接口，也可在这连接后台接口
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.Mz_GetCardInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用读取卡片信息接口
+            </summary>
+            <param name="b"></param>
+            <param name="s"></param>
+            <param name="dt"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.Mz_GetPersonInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            获取病人信息
+            </summary>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_PreviewRegister(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.北京.Reg.root)">
+            <summary>
+            门诊预登记
+            </summary>
+            <param name="root"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_Register(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.Mz_CancelRegister(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            取消门诊登记
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_PreviewCharge(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.北京.Reg.root)">
+            <summary>
+            预算
+            </summary>
+            <param name="b"></param>
+            <param name="s"></param>
+            <param name="dt"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_Charge(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_CancelCharge(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            取消门诊结算
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_UploadzyPatFee">
+            <summary>
+            上传门诊病人费用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.CustomMIInterfaceDao.MZ_DownloadzyPatFee">
+            <summary>
+            下载门诊病人费用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.OpenDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用打开读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.CloseDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用关闭读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.GetCardInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用读取卡片信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.GetPersonInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用获取个人信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.Divide(SiInterfaceDLL.SiInterfaceDll,HIS_MIInterface.Interface.CustomAction.北京.Reg.root)">
+            <summary>
+            分解费用
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.Trade(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用交易确认接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.RefundmentDivide(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用费用退费分解接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.RePrintInvoice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用收据重打接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.MedicareQuery(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用医保查询接口
+            </summary>
+            <param name="sDll"></param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.CommitTradeState(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用交易状态查询及回退接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.CheckOutputState(System.Xml.XmlDocument,System.Boolean@,System.String@)">
+            <summary>
+            1.读取调用信息，如果失败.读取错误信息；如果成功.读取警告信息；读取信息
+            </summary>
+            <param name="xmlDoc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.CustomAction.北京.SiInterface.GetNodeFromPath(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取结果
+            </summary>
+            <param name="oParentNode"></param>
+            <param name="sPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.Mz_GetCardInfo(System.String)">
+            <summary>
+            调用读取卡片信息接口
+            返回ResultClass oResult为DataTable
+            </summary>
+            <param name="sCardNo">医保卡号，直接读卡则为""</param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.Mz_GetPersonInfo(System.String)">
+            <summary>
+            调用获取个人信息接口
+            返回ResultClass oResult为PatientInfo
+            </summary>
+            <param name="sCardNo">医保卡号，直接读卡则为""</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFace.MZ_PreviewRegister(HIS_Entity.MIManage.MI_Register)" -->
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFace.MZ_Register(System.Int32,System.String)" -->
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.Mz_CancelRegister(System.String)">
+            <summary>
+            取消门诊登记
+            返回ResultClass 无object
+            </summary>
+            <param name="serialNO">挂号就诊号</param>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFace.MZ_PreviewCharge(HIS_Entity.MIManage.TradeData)" -->
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.MZ_Charge(System.Int32,System.String)">
+            <summary>
+            结算
+            返回ResultClass ResultClass.oResult 为decimal
+            </summary>
+            <param name="tradeRecordId">交易记录ID</param>
+            <param name="fph">发票号</param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.MZ_CancelCharge(System.String)">
+            <summary>
+            取消门诊结算
+            返回ResultClass 无object
+            </summary>
+            <param name="fph">发票号</param>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.MZ_UploadzyPatFee">
+            <summary>
+            上传门诊病人费用
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.MZ_DownloadzyPatFee">
+            <summary>
+            下载门诊病人费用数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.OpenDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用打开读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.CloseDevice(SiInterfaceDLL.SiInterfaceDll)">
+            <summary>
+            调用关闭读卡设备接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.GetCardInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用读取卡片信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.GetPersonInfo(SiInterfaceDLL.SiInterfaceDll,System.String)">
+            <summary>
+            调用获取个人信息接口
+            </summary>
+            <param name="sDll"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.CheckOutputState(System.Xml.XmlDocument,System.Boolean@,System.String@)">
+            <summary>
+            1.读取调用信息，如果失败.读取错误信息；如果成功.读取警告信息；读取信息
+            </summary>
+            <param name="xmlDoc"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFace.GetNodeFromPath(System.Xml.XmlNode,System.String)">
+            <summary>
+            读取结果
+            </summary>
+            <param name="oParentNode"></param>
+            <param name="sPath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_GetCardInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            读卡测试，查看该卡是否有效
+            </summary>
+            <param name="inputClass">InputType.CardNo 医保卡号，直接读卡则实例化不赋值</param>
+            <returns>返回ResultClass oResult为DataTable</returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_GetPersonInfo(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            获取卡病人信息，查看该卡是否有效
+            </summary>
+            <param name="inputClass">InputType.CardNo 医保卡号，直接读卡则实例化不赋值</param>
+            <returns>返回ResultClass oResult为PatientInfo</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_PreviewRegister(HIS_Entity.MIManage.InputClass)" -->
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_Register(HIS_Entity.MIManage.InputClass)" -->
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_UpdateRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            挂号完成之后更新登记表
+            </summary>
+            <param name="inputClass">InputType.registerId 登记ID InputType.serialNO门诊号/住院号</param>
+            <returns>仅返回成功失败 无object</returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_CancelRegister(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消登记
+            </summary>
+            <param name="inputClass">InputType.serialNO门诊号</param>
+            <returns>返回ResultClass 无object</returns>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_PreviewCharge(HIS_Entity.MIManage.InputClass)" -->
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_Charge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            确认收费
+            </summary>
+            <param name="inputClass">InputType.TradeRecordId交易ID InputType.InvoiceNo发票号</param>
+            <returns> 返回ResultClass ResultClass.oResult 为decimal</returns>
+        </member>
+        <member name="M:HIS_MIInterface.Interface.MIInterFaceFactory.MZ_CancelCharge(HIS_Entity.MIManage.InputClass)">
+            <summary>
+            取消收费
+            </summary>
+            <param name="inputClass">InputType.InvoiceNo发票号</param>
+            <returns>返回ResultClass 无object</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <section name="unity" type="Microsoft.Practices.Unity.Configuration.UnityConfigurationSection, Microsoft.Practices.Unity.Configuration, Version=2.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <section name="plugin" type="EFWCoreLib.CoreFrame.Plugin.PluginSectionHandler, EFWCoreLib.CoreFrame" />
+  </configSections>
+  <unity>
+    <assembly name="HIS_MIInterface"></assembly>
+    <namespace name="HIS_MIInterface.Dao"></namespace>
+    <assembly name="HIS_PublicManage"></assembly>
+    <namespace name="HIS_PublicManage.Dao"></namespace>
+    <container>
+      <register type="IMatchInterface" mapTo="SqlMatchInterface"></register>
+      <register type="IZYInterface" mapTo="SqlZYInterface"></register>
+      <register type="IMZInterface" mapTo="SqlMZInterface"></register>
+      <register type="IMITradeQuery" mapTo="SqlMITradeQuery"></register>
+      <register type="ICommitTradeState" mapTo="SqlCommitTradeState"></register>
+      <register type="IDataMatchInterface" mapTo="SqlDataMatchInterface"></register>
+      <register type="IPublicManageDao" mapTo="SqlPublicManageDao"></register>
+    </container>
+  </unity>
+  <plugin name="MIProject.Service" version="1.0" title="医保接口HIS端服务" author="xzb" plugintype="Wcf" defaultdbkey="SQL2005" defaultcachekey="Cache Manager" isentry="1">
+    <baseinfo>
+      <data key="introduction" value="" />
+      <data key="updaterecord" value="" />
+      <data key="headpic" value="" />
+      <data key="StartItem" value="" />
+    </baseinfo>
+    <businessinfo>
+      <dll name="HIS_Entity.dll" version="1.0" />
+      <dll name="HIS_PublicManage.dll" version="1.0" />
+      <dll name="HIS_MIInterface.dll" version="1.0" />
+    </businessinfo>
+    <issue>
+    </issue>
+    <setup>
+    </setup>
+    <menus>
+    </menus>
+  </plugin>
+</configuration>

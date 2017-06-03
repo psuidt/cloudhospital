@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root version="2.003" sender="Test His 1.0"> 
+  <input> 
+    <tradeinfo> 
+      <curetype>11</curetype>  
+      <illtype>0</illtype>  
+      <feeno>xxxxx</feeno> 
+    </tradeinfo>  
+    <recipearray> 
+      <recipe> 
+        <diagnoseno>1</diagnoseno>  
+        <recipeno>1</recipeno>  
+        <recipedate>20080808</recipedate>  
+        <diagnosename>啊</diagnosename>  
+        <diagnosecode>01</diagnosecode>  
+        <medicalrecord>阿斯顿</medicalrecord>  
+        <sectioncode>01</sectioncode>  
+        <sectionname>内科</sectionname>  
+        <hissectionname>内科2</hissectionname>  
+        <drid>0999</drid>  
+        <drname>甲乙</drname>  
+        <recipetype>1</recipetype> 
+      </recipe> 
+    </recipearray>  
+    <feeitemarray>
+      <feeitem itemno="0" recipeno="123" hiscode="7117" itemname="罗红霉素片" itemtype="1" unitprice="111.00" count="6" fee="666.00" dose="010100" specification="规格" unit="单位" howtouse="01" dosage="单次用量" packaging="包装单位" minpackage="最小包装" conversion="1" days="1"/> 
+    </feeitemarray> 
+  </input> 
+</root>

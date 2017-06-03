@@ -1,0 +1,2906 @@
+----------------------------------------
+Timestamp: 2017-5-17 13:22:31
+
+Message: HandlingInstanceID: 9fbc8a34-5dda-4898-8115-82d7fe983a6e
+An exception of type 'System.Reflection.ReflectionTypeLoadException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+05/17/2017 21:22:31
+Type : System.Reflection.ReflectionTypeLoadException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+Source : EFWCoreLib.CoreFrame
+Help link : 
+Types : System.RuntimeType[]
+LoaderExceptions : System.Exception[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AppStart()
+HResult : -2146232830
+Stack Trace :    在 EFWCoreLib.CoreFrame.Init.AppGlobal.AppStart()
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 13:22:31
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 17172
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:16968
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 13:22:48
+
+Message: HandlingInstanceID: 052a9d4e-88f8-46ae-8b83-f54a5ead461f
+An exception of type 'System.Reflection.ReflectionTypeLoadException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+05/17/2017 21:22:48
+Type : System.Reflection.ReflectionTypeLoadException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+Source : EFWCoreLib.CoreFrame
+Help link : 
+Types : System.RuntimeType[]
+LoaderExceptions : System.Exception[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AppStart()
+HResult : -2146232830
+Stack Trace :    在 EFWCoreLib.CoreFrame.Init.AppGlobal.AppStart()
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 13:22:48
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 12724
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15192
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 13:25:49
+
+Message: HandlingInstanceID: c7ea4c68-a117-4d8b-abec-dc5ee0802aab
+An exception of type 'System.Reflection.ReflectionTypeLoadException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+05/17/2017 21:25:49
+Type : System.Reflection.ReflectionTypeLoadException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+Source : EFWCoreLib.CoreFrame
+Help link : 
+Types : System.RuntimeType[]
+LoaderExceptions : System.Exception[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AppStart()
+HResult : -2146232830
+Stack Trace :    在 EFWCoreLib.CoreFrame.Init.AppGlobal.AppStart()
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 13:25:49
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 13768
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:12768
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 13:26:02
+
+Message: HandlingInstanceID: 3a4ae2fb-11c3-4f46-922c-b499d576a5a3
+An exception of type 'System.Reflection.ReflectionTypeLoadException' occurred and was caught.
+---------------------------------------------------------------------------------------------
+05/17/2017 21:26:02
+Type : System.Reflection.ReflectionTypeLoadException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法加载一个或多个请求的类型。有关更多信息，请检索 LoaderExceptions 属性。
+Source : EFWCoreLib.CoreFrame
+Help link : 
+Types : System.RuntimeType[]
+LoaderExceptions : System.Exception[]
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void AppStart()
+HResult : -2146232830
+Stack Trace :    在 EFWCoreLib.CoreFrame.Init.AppGlobal.AppStart()
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 13:26:02
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 6572
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:6200
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:03:44
+
+Message: HandlingInstanceID: 179ed04e-4d22-4851-82ec-eee0bfffa1e0
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:03:44
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:03:44
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : D:\efwplusProject\cloudhospital\Output_Client\images\defaultmenu.ico
+	Source : System.Drawing
+	Help link : 
+	FileName : 
+	FusionLog : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Drawing.Image FromFile(System.String, Boolean)
+	HResult : -2147024894
+	Stack Trace :    在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+	   在 System.Drawing.Image.FromFile(String filename)
+	   在 WinMainUIFrame.Winform.ViewForm.FrmMainRibbon.showSysMenu()
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 15024
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:16276
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:03:44
+
+Message: HandlingInstanceID: d3ce1646-37ad-48da-b337-8ab22f56f500
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:03:44
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : D:\efwplusProject\cloudhospital\Output_Client\images\defaultmenu.ico
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:03:44
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 15024
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:16276
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:08:37
+
+Message: HandlingInstanceID: 86294b21-1cd7-4be6-b1e7-fb96763ecdb5
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:08:37
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:08:37
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.IO.FileNotFoundException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : D:\efwplusProject\cloudhospital\Output_Client\images\defaultmenu.ico
+	Source : System.Drawing
+	Help link : 
+	FileName : 
+	FusionLog : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : System.Drawing.Image FromFile(System.String, Boolean)
+	HResult : -2147024894
+	Stack Trace :    在 System.Drawing.Image.FromFile(String filename, Boolean useEmbeddedColorManagement)
+	   在 System.Drawing.Image.FromFile(String filename)
+	   在 WinMainUIFrame.Winform.ViewForm.FrmMainRibbon.showSysMenu()
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 20324
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:20328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:08:37
+
+Message: HandlingInstanceID: f037e777-9649-46c0-a617-558bf6fa1c7a
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:08:37
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : D:\efwplusProject\cloudhospital\Output_Client\images\defaultmenu.ico
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:08:37
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 20324
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:20328
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:10:25
+
+Message: HandlingInstanceID: 9d1258b5-8f00-4b9f-b18d-06aeb9451fa6
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:10:25
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法连接到 net.tcp://127.0.0.1:8811/BaseService。连接尝试持续了 00:00:01.0060000 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8811。
+Source : EFWCoreLib.WcfFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : EFWCoreLib.WcfFrame.ClientLink CreateConnection(System.String)
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLinkManage.CreateConnection(String pluginname)
+   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.Init()
+   在 EFWCoreLib.WinformFrame.Controller.ControllerHelper.CreateController(String controllername)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:10:25
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 20112
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:10:25
+
+Message: HandlingInstanceID: f1fef25a-8729-408a-afeb-ea87bc8993c6
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:10:25
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法连接到 net.tcp://127.0.0.1:8811/BaseService。连接尝试持续了 00:00:01.0060000 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8811。
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : EFWCoreLib.WinformFrame.Controller.WinformController CreateController(System.String)
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.ControllerHelper.CreateController(String controllername)
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:10:25
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 20112
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15164
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:11:35
+
+Message: HandlingInstanceID: b08f04a1-f99f-4c75-b4bf-88ee415c93ef
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:11:35
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:11:35
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.FormatException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入字符串的格式不正确。
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+	HResult : -2146233033
+	Stack Trace :    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+	   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+	   在 System.Convert.ToInt32(String value)
+	   在 HIS_OPDoctor.Winform.Controller.PresManageController.GetSystemParameter()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:11:35
+
+Message: HandlingInstanceID: 970b25a8-ce2a-4f4e-a0c9-cbf4c191a782
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:11:35
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入字符串的格式不正确。
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:11:35
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:16:56
+
+Message: HandlingInstanceID: 61b881ad-6d9c-4fcd-9865-1c6d913c6808
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:16:56
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:16:56
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : hhyhwhs
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod)
+	   在 Books_Wcf.Winform.Controller.bookwcfclientController.GetBooks()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:16:56
+
+Message: HandlingInstanceID: 69974177-a292-4b4e-ad3b-5f709b4db655
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:16:56
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : hhyhwhs
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:16:56
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:18:34
+
+Message: HandlingInstanceID: 4f05dc22-2ee7-435f-b39e-4cfe80a17326
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:18:34
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:18:34
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 没有可用的发票！请先分配
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 HIS_IPManage.Winform.Controller.DischargeSettlementController.GetInvoiceNO(Boolean costSuccess)
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:18:34
+
+Message: HandlingInstanceID: 4bec67a9-a602-458a-9e0a-fe49b4b68b92
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:18:34
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 没有可用的发票！请先分配
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:18:34
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:18:42
+
+Message: HandlingInstanceID: a49efe96-7959-4cc1-84f8-c968344d3578
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:18:42
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:18:42
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 没有可用的发票！请先分配
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 HIS_OPManage.Winform.Controller.RegisterController.RegDataInit(Int32 type)
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:18:42
+
+Message: HandlingInstanceID: c91b75e8-baf4-45fb-a83f-1086ee84439f
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:18:42
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 没有可用的发票！请先分配
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:18:42
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:19:03
+
+Message: HandlingInstanceID: da523361-9ee0-4ce2-833e-7aac33138834
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/17/2017 23:19:03
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:19:03
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.FormatException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入字符串的格式不正确。
+	Source : mscorlib
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : Void StringToNumber(System.String, System.Globalization.NumberStyles, NumberBuffer ByRef, System.Globalization.NumberFormatInfo, Boolean)
+	HResult : -2146233033
+	Stack Trace :    在 System.Number.StringToNumber(String str, NumberStyles options, NumberBuffer& number, NumberFormatInfo info, Boolean parseDecimal)
+	   在 System.Number.ParseInt32(String s, NumberStyles style, NumberFormatInfo info)
+	   在 System.Convert.ToInt32(String value)
+	   在 HIS_OPDoctor.Winform.Controller.PresManageController.GetSystemParameter()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-17 15:19:03
+
+Message: HandlingInstanceID: 3436e842-9cc9-44e7-9b11-7cfdf637c045
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/17/2017 23:19:03
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入字符串的格式不正确。
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-17 15:19:03
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1156
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:17020
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:52
+
+Message: HandlingInstanceID: df7d2cb6-8dd6-4ee8-9e1c-dc9a3b98380b
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:12:52
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:52
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:52
+
+Message: HandlingInstanceID: aa1ee816-5bd5-454f-9707-4d37aba0005b
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:12:52
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:52
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:56
+
+Message: HandlingInstanceID: 3b1610dc-46fd-4aea-a8d7-4c3fbb4dbfe6
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:12:56
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:56
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:56
+
+Message: HandlingInstanceID: 3b16265d-fe79-4c50-abb0-d5c6e64e3ae4
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:12:56
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:56
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:58
+
+Message: HandlingInstanceID: 14893ad5-2f6b-4e40-8e24-692715875027
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:12:58
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:58
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:12:58
+
+Message: HandlingInstanceID: 2f1bd4e7-f429-4d44-a112-14b45e018958
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:12:58
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:12:58
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:13:00
+
+Message: HandlingInstanceID: e6b4a695-1874-4439-b500-dfe012943d9c
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:13:00
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:13:00
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:13:00
+
+Message: HandlingInstanceID: e93ceb19-affd-47f2-abcf-f97247e499c5
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:13:00
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:13:00
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:13:02
+
+Message: HandlingInstanceID: 16bd01f6-c345-4aa1-ac3b-35f939796cd8
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:13:02
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:13:02
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:13:02
+
+Message: HandlingInstanceID: 645bb7e2-9749-49db-9ad9-2e875f425d4a
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:13:02
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:13:02
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:16
+
+Message: HandlingInstanceID: dd121e15-4deb-4fdc-a77a-4b0b9ab0ef4c
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:15:16
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:16
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:16
+
+Message: HandlingInstanceID: 4054f7f2-a61d-40dd-8f38-beb4f149bc02
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:15:16
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:16
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:17
+
+Message: HandlingInstanceID: 401a4791-52ec-4543-85df-acc6d9493bfd
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:15:17
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:17
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:17
+
+Message: HandlingInstanceID: 184c4652-b504-442e-a11f-df8efc0ece99
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:15:17
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:17
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:19
+
+Message: HandlingInstanceID: 271cd09e-be8c-45c2-92ed-bd69556ec40c
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:15:19
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:19
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:19
+
+Message: HandlingInstanceID: 08073001-abd3-4dac-b4ad-7ae7556cad46
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:15:19
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:19
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:22
+
+Message: HandlingInstanceID: 445123b3-f614-41cb-b51c-76d377d9cfbe
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:15:22
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:22
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:22
+
+Message: HandlingInstanceID: 8454d1bd-60b6-4ab4-8290-bea221ee89c2
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:15:22
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:22
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:24
+
+Message: HandlingInstanceID: 173aa70e-1baf-4b99-a754-c9c584cf17a1
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:15:24
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:24
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:15:24
+
+Message: HandlingInstanceID: 5a57b300-da55-4033-badc-afd955402f37
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:15:24
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:15:24
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 11520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:5652
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:37:58
+
+Message: HandlingInstanceID: 2a92127f-06d9-4ffc-8a92-f07d28711bdc
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 11:37:58
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:37:58
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : hhyhwhs
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod)
+	   在 Books_Wcf.Winform.Controller.bookwcfclientController.GetBooks()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 16104
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15992
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 03:37:58
+
+Message: HandlingInstanceID: d2a4debf-84f7-4154-b3d2-8755b6a1c87e
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 11:37:58
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : hhyhwhs
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 03:37:58
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 16104
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15992
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:43:49
+
+Message: HandlingInstanceID: 0e124411-0d72-498e-a014-938a208bd4c3
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 12:43:49
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:43:49
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:43:49
+
+Message: HandlingInstanceID: 00460fbd-1917-43ba-a070-5562edcc016e
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 12:43:49
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:43:49
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 1520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:15268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:58:17
+
+Message: HandlingInstanceID: bad76910-aaf5-4d8e-b5d4-1e4e30e4e7e1
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 12:58:17
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:58:17
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 输入的用户名密码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 14044
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:14900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:58:17
+
+Message: HandlingInstanceID: be46760f-900f-41dc-9813-8ce213ec673d
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 12:58:17
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 输入的用户名密码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:58:17
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 14044
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:14900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:58:37
+
+Message: HandlingInstanceID: c5ef3b12-5bd0-41a9-93f6-5fe51c3dee86
+An exception of type 'System.Reflection.TargetInvocationException' occurred and was caught.
+-------------------------------------------------------------------------------------------
+05/19/2017 12:58:37
+Type : System.Reflection.TargetInvocationException, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 调用的目标发生了异常。
+Source : mscorlib
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object InvokeMethod(System.Object, System.Object[], System.Signature, Boolean)
+HResult : -2146232828
+Stack Trace :    在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Reflection.MethodBase.Invoke(Object obj, Object[] parameters)
+   在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:58:37
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+	Inner Exception
+	---------------
+	Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+	Message : 登录用户的当前机构注册码不正确！
+	Source : EFWCoreLib.WcfFrame
+	Help link : 
+	Data : System.Collections.ListDictionaryInternal
+	TargetSite : EFWCoreLib.WcfFrame.DataSerialize.ServiceResponseData Request(System.String, System.String, System.Action`1[EFWCoreLib.WcfFrame.DataSerialize.ClientRequestData])
+	HResult : -2146233088
+	Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLink.Request(String controller, String method, Action`1 requestAction)
+	   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.InvokeWcfService(String wcfpluginname, String wcfcontroller, String wcfmethod, Action`1 requestAction)
+	   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.UserLogin()
+
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 14044
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:14900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017-5-19 04:58:37
+
+Message: HandlingInstanceID: f66bb466-a193-4aac-a595-cba7d40d74bc
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+05/19/2017 12:58:37
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 登录用户的当前机构注册码不正确！
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object UI_ControllerEvent(System.String, System.Object[])
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.WinformController.UI_ControllerEvent(String eventname, Object[] objs)
+   在 EFWCoreLib.WcfFrame.ClientController.WcfClientController.UI_ControllerEvent(String eventname, Object[] objs)
+
+Additional Info:
+
+MachineName : MS-20160805VZRB
+TimeStamp : 2017-5-19 04:58:37
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20160805VZRB\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20160805VZRB
+
+App Domain: efwplusClient.exe
+
+ProcessId: 14044
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:14900
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017/6/2 星期五 上午 8:59:02
+
+Message: HandlingInstanceID: 659189b6-fe32-435f-94bd-535f3337f248
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/02/2017 16:59:02
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法连接到 net.tcp://127.0.0.1:8811/BaseService。连接尝试持续了 00:00:01.2652000 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8811。
+Source : EFWCoreLib.WcfFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : EFWCoreLib.WcfFrame.ClientLink CreateConnection(System.String)
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WcfFrame.ClientLinkManage.CreateConnection(String pluginname)
+   在 WinMainUIFrame.Winform.Controller.wcfclientLoginController.Init()
+   在 EFWCoreLib.WinformFrame.Controller.ControllerHelper.CreateController(String controllername)
+
+Additional Info:
+
+MachineName : MS-20170601OYHJ
+TimeStamp : 2017/6/2 星期五 上午 8:59:02
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20170601OYHJ\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20170601OYHJ
+
+App Domain: efwplusClient.exe
+
+ProcessId: 2520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:1732
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+Timestamp: 2017/6/2 星期五 上午 8:59:02
+
+Message: HandlingInstanceID: af67c2f5-34d1-4115-a07d-961c9e807b1a
+An exception of type 'System.Exception' occurred and was caught.
+----------------------------------------------------------------
+06/02/2017 16:59:02
+Type : System.Exception, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+Message : 无法连接到 net.tcp://127.0.0.1:8811/BaseService。连接尝试持续了 00:00:01.2652000 时间跨度。TCP 错误代码 10061: 由于目标计算机积极拒绝，无法连接。 127.0.0.1:8811。
+Source : EFWCoreLib.WinformFrame
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : EFWCoreLib.WinformFrame.Controller.WinformController CreateController(System.String)
+HResult : -2146233088
+Stack Trace :    在 EFWCoreLib.WinformFrame.Controller.ControllerHelper.CreateController(String controllername)
+   在 EFWCoreLib.WinformFrame.WinformGlobal.Init()
+
+Additional Info:
+
+MachineName : MS-20170601OYHJ
+TimeStamp : 2017/6/2 星期五 上午 8:59:02
+FullName : Microsoft.Practices.EnterpriseLibrary.ExceptionHandling, Version=5.0.414.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35
+AppDomainName : efwplusClient.exe
+ThreadIdentity : 
+WindowsIdentity : MS-20170601OYHJ\Administrator
+
+
+Category: FileLog
+
+Priority: 0
+
+EventId: 100
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MS-20170601OYHJ
+
+App Domain: efwplusClient.exe
+
+ProcessId: 2520
+
+Process Name: D:\efwplusProject\cloudhospital\Output_Client\efwplusClient.exe
+
+Thread Name: 
+
+Win32 ThreadId:1732
+
+Extended Properties: 
+----------------------------------------

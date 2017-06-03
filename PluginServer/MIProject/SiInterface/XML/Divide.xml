@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--
+<root version="2.003" sender="capinfo">
+  <input>
+    <tradeinfo>
+      <curetype name="就诊类型，11门诊，19急诊，17门诊挂号，18急诊挂号">11</curetype>
+      <illtype name="就诊方式 0普通 其他未启用">0</illtype>
+      <feeno name="收费单据号">20080112345678</feeno>
+      <operator name="收费员">马小琴</operator >
+      </tradeinfo>
+    <recipearray>
+      <recipe>
+        <diagnoseno name="诊断序号" />
+        <recipeno name="处方序号" />
+        <recipedate name="处方日期时间" />
+        <diagnosename name="诊断名称" />
+        <diagnosecode name="诊断编码" />
+        <medicalrecord name="病历信息" />
+        <sectioncode name="就诊科别代码" />
+        <sectionname name="就诊科别名称" />
+        <hissectionname name="his就诊科别名称" />
+        <drid name="医师编号" />
+        <drname name="医师姓名" />
+        <recipetype name="处方类别（1：医保内处方 2：医保外处方）" />
+        <helpmedicineflag name="代开药标识"/>
+        <remark name=”备注”/>
+        <registertradeno name="挂号交易流水号">0111000309030100116b</registertradeno>
+        <billstype name="单据类型（1-挂号；2-西药或中成药处方；4-中草药处方；5-检验治疗；）" />
+      </recipe>
+    </recipearray>
+    <feeitemarray>
+      <feeitem itemno="0" recipeno="" hiscode="sw001" itemname="" itemtype="0" unitprice="7.5" count="100" fee="750" dose="剂型" specification="规格" unit="单位" howtouse="用法" dosage="单次用量" packaging="包装单位" minpackage="最小包装" conversion="换算率" days="天数" babyflag="0" drugapprovalnumber =”药品批准文号”/>
+    </feeitemarray>
+  </input>
+</root>
+-->
+<root version="2.003">
+  <state success="true">
+    <error no="0" info="读卡失败,请插入社保卡!" />
+    <error no="1" info="该卡片已经挂失,不能使用!" />
+    <warning no="0" info="与医保中心通讯中断,不能取得个人帐户,定点医疗机构等信息,请联系网络管理员查看网络运行状况" />
+  </state>
+  <output name="输出部分">
+    <tradeinfo>
+      <tradeno name="交易流水号">0111000309030100116b</tradeno>
+      <feeno name="收费单据号">20080112345679</feeno>
+      <tradedate name="交易日期">20081001000000</tradedate>
+    </tradeinfo>
+    <feeitemarray>
+      <feeitem itemno="0" recipeno="" hiscode="sw001" itemcode="101110003507201990000000000000000" itemname="松万" itemtype="0" unitprice="7.5" count="100" fee="750" feein="0" feeout="0" selfpay2="0" state="0" fee_type="" preferentialfee="0" preferentialscale="0" />
+      <feeitem itemno="1" recipeno="" hiscode="slhl001" itemcode="101110003509900990000000000000000" itemname="三氯化铝溶液" itemtype="0" unitprice="5.5" count="100" fee="550" feein="0" feeout="0" selfpay2="0" state="0" fee_type="" preferentialfee="0" preferentialscale="0" />
+    </feeitemarray>
+    <sumpay>
+      <feeall name="费用总金额">0</feeall>
+      <fund name="基金支付" />
+      <cash name="现金支付" />
+      <personcountpay name="个人帐户支付" />
+    </sumpay>
+    <payinfo>
+      <mzfee name="">0</mzfee>
+      <mzfeein name="">0</mzfeein>
+      <mzfeeout name="医保外费用">0</mzfeeout>
+      <mzpayfirst name="本次付起付线">0</mzpayfirst>
+      <mzselfpay2 name="">0</mzselfpay2>
+      <mzbigpay name="">0</mzbigpay>
+      <mzbigselfpay name="">0</mzbigselfpay>
+      <mzoutofbig name="">0</mzoutofbig>
+      <bcpay name="补充保险支付" />
+      <jcbz name="军残补助保险支付" />
+    </payinfo>
+    <medicatalog>
+      <medicine name="西药">0</medicine>
+      <tmedicine name="中成药">0</tmedicine>
+      <therb name="中草药">0</therb>
+      <examine name="检查费">0</examine>
+      <ct>0</ct>
+      <mri name="核磁">0</mri>
+      <ultrasonic name="b超">0</ultrasonic>
+      <oxygen name="输氧费">0</oxygen>
+      <operation name="手术费">0</operation>
+      <treatment name="治疗费">0</treatment>
+      <xray name="放射">0</xray>
+      <labexam name="化验">0</labexam>
+      <bloodt name="输血费">0</bloodt>
+      <orthodontics name="正畸费">0</orthodontics>
+      <prosthesis name="镶牙费">0</prosthesis>
+      <forensic_expertise name="司法鉴定">0</forensic_expertise>
+      <material name="材料费">0</material>
+      <other name="其他项目">0</other>
+    </medicatalog>
+    <medicatalog2>
+      <diagnosis name="诊察费">0</diagnosis >
+        <examine name="检查费">0</examine>
+        <labexam name="化验费">0</labexam>
+        <treatment name="治疗费">0</treatment>
+        <operation name="手术费">0</operation>
+        <material name="卫生材料费">0</material>
+        <medicine name="西药费">0</medicine>
+        <therb name="中草药费">0</therb>
+        <tmedicine name="中成药费">0</tmedicine>
+        <medicalservice name="医事服务费">
+          0</medicalservice >
+          <commonservice name="一般诊疗费">
+            0</commonservice >
+            <registfee name="挂号费">
+              0</registfee >
+              <otheropfee name="其他门诊收费">
+                0</otheropfee >
+              </medicatalog2>
+  </output>
+</root>
